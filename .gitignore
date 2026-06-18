@@ -1,0 +1,19 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Dataset and processed data (contains large >100MB files like all_embeddings.pt)
+Dataset/
+Processed/
+
+# Checkpoint model weights
+Checkpoints/
+
+# Logging and temp files
+*.log
+production_training.log
+Evaluation/attention_weights.pkl
+Evaluation/XAI/occlusion_scores.pkl
+
+# Windows thumbnail cache
+Thumbs.db
