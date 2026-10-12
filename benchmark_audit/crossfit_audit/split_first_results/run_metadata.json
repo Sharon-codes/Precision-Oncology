@@ -1,0 +1,26 @@
+{
+  "purpose": "Split-before-construction metadata control within an antigen collection; not unseen-peptide binding prediction",
+  "source_sha256": "2823281ece02f37b15cdd9187be374e99ee7b46e041572fc2cde4b295a9bf52e",
+  "cohort": "VDJdb2023-06-01 strict human TRB MHCI score>=1",
+  "fold_seeds": [
+    17,
+    41,
+    73,
+    107,
+    211
+  ],
+  "n_folds": 5,
+  "sampling_seeds": 10,
+  "draw_seed_rule": "sampling_seed + 10000 * fold",
+  "retention": "maximum closed within-HLA known-positive-excluding assignment separately in each receptor fold",
+  "common_population": "all samplers on same retained positives within each fold seed; cohort differs across fold seeds",
+  "training": "onehot fit only training folds; C1 liblinear tol1e-8; no receptor sequence for antigen models",
+  "uncertainty": "mean of fold-seed metrics then SD/range across negative-sampling seeds; not population CI",
+  "protocol_note": "Original global-construction-then-crossfit retained as separate sensitivity because exact global marginals couple complementary fold label imbalances",
+  "source_code_sha256": {
+    "run_crossfit.py": "5bdbc4c805f570a3879f9d226bba6be2b64ad8b83ad5a41b6a51462311f84d89",
+    "run_split_first.py": "852d9004409a5c6366fda02776adf681681f01bec19884c4b2ea40149cb3df51",
+    "plot_crossfit.py": "4749d194c6d54f27bfc317962f870b5865daa83287b879db2115d84573e27d66",
+    "validate_matching.py": "f194c39cd0fd74e9431d0a239bd9c6ff979cd85781120f255f0cf10097965aea"
+  }
+}

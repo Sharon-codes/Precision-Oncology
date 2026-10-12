@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "scope": "Entirely artificial implementation check; not biological evidence.",
+  "design": {
+    "receptor_categories": 100,
+    "n_pairs": 200,
+    "positive_rows_per_receptor": 1,
+    "negative_rows_per_receptor": 1,
+    "signal": "Peptide category deterministically identifies label; HLA constant.",
+    "fold_seeds": [
+      17,
+      41
+    ],
+    "folds_per_seed": 5,
+    "actual_pipeline": "run_crossfit.run_dataset"
+  },
+  "expected_and_observed_auroc_in_every_run_and_fold": {
+    "peptide": 1.0,
+    "peptide_hla": 1.0,
+    "hla": 0.5,
+    "receptor": 0.5
+  },
+  "null_scores_exactly_0_5": true,
+  "receptor_groups_do_not_cross_folds": true,
+  "pooled_metric_sets": 8,
+  "fold_metric_sets": 40,
+  "score_rows": 400,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  },
+  "source_sha256": {
+    "run_crossfit.py": "5bdbc4c805f570a3879f9d226bba6be2b64ad8b83ad5a41b6a51462311f84d89",
+    "validate_synthetic_control.py": "9f7380ab3c19a80bfc97e1f61c8dafb61091fb221695201524606313529a8d96"
+  }
+}

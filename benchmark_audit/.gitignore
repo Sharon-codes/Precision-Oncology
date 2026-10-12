@@ -1,0 +1,19 @@
+# Local sequence materializations and transient reproducibility outputs
+**/local_pairs/
+**/__pycache__/
+reproduction_logs/
+research/data/vdjdb.txt
+research/data/vdjdb.meta.txt
+research/data/LICENSE.txt
+crossfit_audit/results/oof_scores.csv.gz
+crossfit_audit/split_first_results/oof_scores.csv.gz
+crossfit_audit/annotation_filtered_results/oof_scores.csv.gz
+paper/qa/
+paper/**/*.aux
+paper/**/*.blg
+paper/**/*.fdb_latexmk
+paper/**/*.fls
+paper/**/*.log
+paper/**/*.out
+release/
+deliverables/

@@ -1,0 +1,92 @@
+{
+  "format_version": 1,
+  "method": "ordered raw-byte concatenation",
+  "artifacts": [
+    {
+      "path": "crossfit_audit/results/oof_scores.csv.gz",
+      "bytes": 44038701,
+      "sha256": "97b3b12b44c2afd97f01f204081c27d1abb9a7f73f80b0333b1844205e3e2e02",
+      "parts": [
+        {
+          "path": "crossfit_audit/results/oof_scores.csv.gz.parts/part000",
+          "bytes": 10000000,
+          "sha256": "ba2dd6a096dfda4d0a6f9e0e03d42cc39e3ca80367497ec2b1474cd5e1b4c21c"
+        },
+        {
+          "path": "crossfit_audit/results/oof_scores.csv.gz.parts/part001",
+          "bytes": 10000000,
+          "sha256": "bd9136e3b59f2763fd6cc5431c39dcc78bccbcbfd2f570cb2076a6ed50a9d99d"
+        },
+        {
+          "path": "crossfit_audit/results/oof_scores.csv.gz.parts/part002",
+          "bytes": 10000000,
+          "sha256": "01c831061d248eafce5106687c8b9702f46b94077921a4bffe8647ea5bf2d8fe"
+        },
+        {
+          "path": "crossfit_audit/results/oof_scores.csv.gz.parts/part003",
+          "bytes": 10000000,
+          "sha256": "daf92aa24383c304d8338a30d617d817a90d55b831a14177e7a6c0076032ca4f"
+        },
+        {
+          "path": "crossfit_audit/results/oof_scores.csv.gz.parts/part004",
+          "bytes": 4038701,
+          "sha256": "204c2eae2be60a2a0b64e959d607c4b37bc67c141a8ea2f8bf7f31fa2ac9811f"
+        }
+      ]
+    },
+    {
+      "path": "crossfit_audit/split_first_results/oof_scores.csv.gz",
+      "bytes": 37816177,
+      "sha256": "295d34cf23105dafd89648e1433017708c6d964215f3d2b613da92c6e51812ce",
+      "parts": [
+        {
+          "path": "crossfit_audit/split_first_results/oof_scores.csv.gz.parts/part000",
+          "bytes": 10000000,
+          "sha256": "0ded0ce5be5ca93295f3613e8e3d3f5be5e0bd2fc809f463b6d1c59a2984674a"
+        },
+        {
+          "path": "crossfit_audit/split_first_results/oof_scores.csv.gz.parts/part001",
+          "bytes": 10000000,
+          "sha256": "4f69898e39bac43e61a3fe6fd2007aab51cfdc6945fc751cfb6b8fc2511d3d5e"
+        },
+        {
+          "path": "crossfit_audit/split_first_results/oof_scores.csv.gz.parts/part002",
+          "bytes": 10000000,
+          "sha256": "e43ffd384139f9d591af7d91782b0d4118eca2dbc1d1f52e3c2366b26bec3df2"
+        },
+        {
+          "path": "crossfit_audit/split_first_results/oof_scores.csv.gz.parts/part003",
+          "bytes": 7816177,
+          "sha256": "cd330f60e582a6c0a0a976de0ce5e2afee0a2950dcf3fd2a4dd41972e915d620"
+        }
+      ]
+    },
+    {
+      "path": "crossfit_audit/annotation_filtered_results/oof_scores.csv.gz",
+      "bytes": 37326328,
+      "sha256": "5fc71f606f749df29aea849ae3df6cf3390c64079277f593ea6db908817d951d",
+      "parts": [
+        {
+          "path": "crossfit_audit/annotation_filtered_results/oof_scores.csv.gz.parts/part000",
+          "bytes": 10000000,
+          "sha256": "3b3084f8684a5e638ac97febd599fdc32960da32e0766549bf660e88e9e6bb6a"
+        },
+        {
+          "path": "crossfit_audit/annotation_filtered_results/oof_scores.csv.gz.parts/part001",
+          "bytes": 10000000,
+          "sha256": "678831e791b81d79cf53667da3118f824f3084a08fe1854d5ca61b9dee5fa312"
+        },
+        {
+          "path": "crossfit_audit/annotation_filtered_results/oof_scores.csv.gz.parts/part002",
+          "bytes": 10000000,
+          "sha256": "f40dc1716f090266ded12dbfee0d0fd36ac414ba67b28b1d6fddf402a63d386b"
+        },
+        {
+          "path": "crossfit_audit/annotation_filtered_results/oof_scores.csv.gz.parts/part003",
+          "bytes": 7326328,
+          "sha256": "d79dd0809474aedf1be83128f73b51f0374f5ff118e98e9d8e3f94eaca1b70b4"
+        }
+      ]
+    }
+  ]
+}

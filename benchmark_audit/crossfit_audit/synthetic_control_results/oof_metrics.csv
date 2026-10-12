@@ -1,0 +1,9 @@
+sampler,sampling_seed,cohort,fold_seed,feature,n_pairs,n_positive,n_receptor_groups,auroc,average_precision,brier,score_min,score_max
+artificial_perfect_peptide_signal,0,synthetic_100_receptors_two_labels,17,peptide_hla,200,100,100,1.0,1.0,0.0015834962434577683,0.03979316830132742,0.9602068316986726
+artificial_perfect_peptide_signal,0,synthetic_100_receptors_two_labels,17,peptide,200,100,100,1.0,1.0,0.0015834962434577683,0.03979316830132742,0.9602068316986726
+artificial_perfect_peptide_signal,0,synthetic_100_receptors_two_labels,17,hla,200,100,100,0.5,0.5,0.25,0.5,0.5
+artificial_perfect_peptide_signal,0,synthetic_100_receptors_two_labels,17,receptor,200,100,100,0.5,0.5,0.25,0.5,0.5
+artificial_perfect_peptide_signal,0,synthetic_100_receptors_two_labels,41,peptide_hla,200,100,100,1.0,1.0,0.0015834962434577683,0.03979316830132742,0.9602068316986726
+artificial_perfect_peptide_signal,0,synthetic_100_receptors_two_labels,41,peptide,200,100,100,1.0,1.0,0.0015834962434577683,0.03979316830132742,0.9602068316986726
+artificial_perfect_peptide_signal,0,synthetic_100_receptors_two_labels,41,hla,200,100,100,0.5,0.5,0.25,0.5,0.5
+artificial_perfect_peptide_signal,0,synthetic_100_receptors_two_labels,41,receptor,200,100,100,0.5,0.5,0.25,0.5,0.5

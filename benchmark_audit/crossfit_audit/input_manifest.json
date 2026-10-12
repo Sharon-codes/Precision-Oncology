@@ -1,0 +1,159 @@
+{
+  "datasets": [
+    {
+      "path": "../public_audit/local_pairs/common_corrected_seed0.csv",
+      "sampler": "exact_closed_matching",
+      "sampling_seed": 0
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_release_order_seed0.csv",
+      "sampler": "source_release_order",
+      "sampling_seed": 0
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_release_order_seed1.csv",
+      "sampler": "source_release_order",
+      "sampling_seed": 1
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_release_order_seed2.csv",
+      "sampler": "source_release_order",
+      "sampling_seed": 2
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_release_order_seed3.csv",
+      "sampler": "source_release_order",
+      "sampling_seed": 3
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_release_order_seed4.csv",
+      "sampler": "source_release_order",
+      "sampling_seed": 4
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_release_order_seed5.csv",
+      "sampler": "source_release_order",
+      "sampling_seed": 5
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_release_order_seed6.csv",
+      "sampler": "source_release_order",
+      "sampling_seed": 6
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_release_order_seed7.csv",
+      "sampler": "source_release_order",
+      "sampling_seed": 7
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_release_order_seed8.csv",
+      "sampler": "source_release_order",
+      "sampling_seed": 8
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_release_order_seed9.csv",
+      "sampler": "source_release_order",
+      "sampling_seed": 9
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_peptide_sorted_seed0.csv",
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 0
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_peptide_sorted_seed1.csv",
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 1
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_peptide_sorted_seed2.csv",
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 2
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_peptide_sorted_seed3.csv",
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 3
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_peptide_sorted_seed4.csv",
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 4
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_peptide_sorted_seed5.csv",
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 5
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_peptide_sorted_seed6.csv",
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 6
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_peptide_sorted_seed7.csv",
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 7
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_peptide_sorted_seed8.csv",
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 8
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_peptide_sorted_seed9.csv",
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 9
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_row_shuffled_seed0.csv",
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 0
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_row_shuffled_seed1.csv",
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 1
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_row_shuffled_seed2.csv",
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 2
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_row_shuffled_seed3.csv",
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 3
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_row_shuffled_seed4.csv",
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 4
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_row_shuffled_seed5.csv",
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 5
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_row_shuffled_seed6.csv",
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 6
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_row_shuffled_seed7.csv",
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 7
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_row_shuffled_seed8.csv",
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 8
+    },
+    {
+      "path": "../public_audit/local_pairs/common_original_row_shuffled_seed9.csv",
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 9
+    }
+  ]
+}

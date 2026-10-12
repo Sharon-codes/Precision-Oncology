@@ -1,0 +1,139 @@
+% Supplementary text for an anonymous submission. Repository URL, author names,
+% original Git commit and private workspace paths must remain in an author-only
+% provenance ledger, not in this review manuscript.
+\section{Public-release construction audit and reproducibility}
+\label{supp:public-audit}
+
+We used the unchanged VDJdb release dated 1 June 2023. The initial table contains
+92,771 records. Sequentially requiring human origin, the T-cell receptor beta
+chain, major histocompatibility complex class I, exact two-field HLA-A/B/C
+annotation syntax, a canonical amino-acid CDR3 beginning with C and ending with F or W,
+and a canonical peptide of length 8--15 retained 85,329, 49,686, 47,005, 35,278,
+35,242, and 35,237 records, respectively. HLA resolution was not imputed. We did
+not silently impose a CDR3 length threshold. After confidence filtering and
+deduplication of exact beta/peptide/HLA triples, the score-at-least-one primary
+cohort contained 3,182 triples, 3,061 distinct beta sequences, 253 peptides, and
+41 source HLA labels. The primary analysis preserves source annotations and
+does not assume that syntactic validity establishes current nomenclature
+validity. The score-at-least-zero and score-three sensitivity cohorts
+contained 29,306 and 320 triples, respectively. Their pre-deduplication counts
+were 35,237 and 594; the primary pre-deduplication count was 4,538.
+
+The known-positive reference included all 29,306 eligible triples at score zero
+or above, regardless of the narrower analysis cohort. We separately counted
+exact triple collisions and beta/peptide collisions without considering HLA.
+These are contradictions with a recorded positive reference, not estimates of
+the complete biological false-negative rate. A second sensitivity analysis
+restricted the reference to confidence scores of at least one. Database
+cross-reactivity labels and confidence scores are taken as provided, without
+experimental revalidation.
+
+\subsection{Execution of source logic}
+The source sampler's class body was extracted from its abstract syntax tree and
+executed unchanged. A minimal numerical interface replaced only tensor
+stacking, concatenation, and conversion; unique identity tags replaced sequence
+embeddings. The selected antigen identities were recovered from these tags.
+No protein language model, neural checkpoint, or original study embedding was
+executed. This design audits the actual sequence-selection and label-generation
+logic without interpreting synthetic tags as learned representations. An
+anonymous source snapshot and file hashes support reproduction; identifying
+repository metadata are withheld from the anonymous manuscript.
+
+For each cohort, we fixed the global fallback pool to the first occurrence of
+each distinct peptide/HLA pair in source order. We independently varied loader
+order among release order, peptide/HLA-sorted order, and random row order.
+Source-order ties in sorted loading were preserved. The loader permutation used
+NumPy's default random generator with seed $100000+s$, and the source sampler
+used Python's random generator with seed $s$, for $s=0,\ldots,29$. All cohorts
+used batch size 64; the primary cohort additionally used batch sizes 16 and 256.
+Changing loader order did not reorder the fallback pool. The resulting 540
+stochastic runs, together with one deterministic corrected construction,
+generated 3,770,361 negative records in the main analysis. Repeated records
+across runs are Monte Carlo replicates, not additional biological observations.
+
+\subsection{Marginal diagnostics}
+For equally sized positive and generated-negative classes, marginal
+total-variation distance was computed as
+\begin{equation}
+  \operatorname{TV}(P_+,P_-)=\frac12\sum_c\lvert P_+(c)-P_-(c)\rvert.
+\end{equation}
+Categories $c$ were peptide identity, HLA identity, joint peptide/HLA identity,
+or beta-chain identity. The identity-oracle diagnostic assigned category $c$
+the value $n_+(c)/(n_+(c)+n_-(c))$ and evaluated AUROC on the same constructed
+dataset, with half credit for tied scores. It is deliberately a resubstitution
+measure of marginal class separability. It does not measure held-out prediction
+or generalization to unseen peptides or receptors. We report means, sample
+standard deviations, ranges, and empirical 2.5th and 97.5th percentiles across
+construction seeds; these are not population confidence intervals.
+
+\subsection{Maximum retained closed assignment}
+Within an HLA stratum with $N$ positive rows, let $C_{ij}=0$ when assigning the
+antigen of donor row $j$ to receptor row $i$ creates a triple absent from the
+known-positive reference. Set $C_{ii}=1$ to encode abstention, and assign cost
+$N+1$ to every other forbidden edge. A minimum-cost complete assignment is
+computed using SciPy's \texttt{linear\_sum\_assignment}. The identity assignment
+has cost $N$, so no optimum can contain an edge of cost $N+1$. Its non-diagonal
+assignments form disjoint cycles. Removing diagonal self-loops therefore retains
+the identical source and donor row set. Minimizing the cost minimizes the number
+of abstentions, yielding maximum retained cardinality among closed within-HLA
+permutations obeying the positive-exclusion rule. This is an application of the
+standard assignment problem, not a new optimization algorithm.
+
+We verified zero reference-positive collisions and exact equality of beta,
+peptide, HLA, and joint peptide/HLA class marginals in the returned construction.
+The primary solution retained 2,691 of 3,182 positive rows (84.57\%), 236 of 253
+peptides, and 22 of 41 HLA alleles. Retention is selective: single-peptide HLA
+strata cannot supply a different peptide under the stated constraints, and
+cross-reactivity can impose additional restrictions. Original and corrected
+samplers were therefore compared both descriptively on the original population
+and directly on the same retained positive rows. This construction does not
+certify the remaining generated pairs as experimentally verified nonbinders.
+
+\subsection{HLA annotation sensitivity}
+An independent nomenclature review identified two source labels requiring
+additional scrutiny: \texttt{HLA-A*08:01} was unresolved in the current
+nomenclature comparison, and \texttt{HLA-A*24:01} corresponds to a deleted legacy
+annotation. The official deletion record reports a sequence error in March
+1995. We did not infer biological binding consequences from nomenclature status
+and did not replace either label with another allele. A secondary analysis
+removed both exact labels from the analysis cohorts and the broad known-positive
+reference, leaving 3,108 primary positive triples. We reran all three loader
+orders at batch size 64 for 30 seeds, on both the full clean cohort and the
+common retained cohort.
+
+The clean full-cohort mean known-positive collision rates were 2.8882\%,
+0.9331\%, and 0.2445\% for release, peptide-sorted, and shuffled orders,
+respectively. Corresponding peptide total-variation distances were 0.182937,
+0.439168, and zero; identity-oracle AUROCs were 0.642295, 0.793573, and 0.500000.
+The exact corrected construction retained 2,665 of 3,108 rows (85.75\%), with
+zero known-positive collisions and exact equality of all four audited marginal
+distributions. These results preserve the qualitative primary conclusions.
+Deleting records changes batch boundaries, so differences from the raw-source
+audit are not interpreted as a biological effect of those HLA annotations.
+
+\subsection{Strict peptide-component sensitivity}
+The 253 primary-cohort peptides formed 221 connected components under unit-cost
+Levenshtein edit distance at most two. For five prespecified seeds, components
+were permuted with NumPy seed $200000+s$, and 132/44/45 components were assigned
+to training, validation, and test partitions. This approximates 60/20/20 by
+component count; record counts are reported separately. Exhaustive comparison
+verified a minimum cross-partition edit distance of three for every partition.
+Test populations contained 1,022, 877, 643, 372, and 593 rows. The corrected
+within-test constructions retained 509, 546, 380, 271, and 190 rows, respectively
+(49.80\%, 62.26\%, 59.10\%, 72.85\%, and 32.04\%). Each original test
+construction was audited under three loader orders and ten sampler seeds on
+both full and retained test populations. No model was trained on these
+partitions, so this sensitivity experiment tests construction invariants under
+peptide separation and makes no out-of-distribution performance claim.
+
+\subsection{Frozen manifests and release restrictions}
+Frozen manifests identify the zero-based source row for each receptor and the
+source row providing each negative peptide/HLA identity. Row zero denotes the
+first data row after the TSV header. An antigen source row may identify the
+first equivalent peptide/HLA pair rather than an indistinguishable donor object
+inside a batch. A sentinel index of $-1$ encodes the original source sampler's
+hardcoded fallback. We independently reconstructed every frozen negative triple
+from the unchanged source table and verified exact agreement with the local
+analysis table. Sequence-derived materializations are regenerated locally;
+redistribution contains source-row manifests and aggregate measurements, with
+the unchanged original database archive and its license retained separately.

@@ -1,0 +1,12 @@
+{
+  "purpose": "synthetic mathematical counterexample, not biological experiment",
+  "n_samples_per_seed": 1000,
+  "tokens": 20,
+  "dimensions": 32,
+  "n_seeds": 30,
+  "class_signal": 0.6,
+  "noise_sd": 1,
+  "score": "mean over tokens of coordinate 0; fixed a priori",
+  "offset_coordinate": 31,
+  "claim": "cosine can approach one while fixed classification scores and token-centered representations remain unchanged"
+}

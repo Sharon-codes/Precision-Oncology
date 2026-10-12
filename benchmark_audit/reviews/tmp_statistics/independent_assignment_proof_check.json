@@ -1,0 +1,7 @@
+{
+  "new_independent_directed_graph_fixtures": 84,
+  "enumerated_permutations": 70956,
+  "all_minimum_cost_optima_correct": true,
+  "seed": 982271,
+  "max_n": 7
+}

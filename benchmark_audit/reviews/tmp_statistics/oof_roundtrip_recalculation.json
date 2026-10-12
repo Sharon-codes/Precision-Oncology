@@ -1,0 +1,26 @@
+{
+  "results": {
+    "max_metric_difference": {
+      "auroc": 0.0,
+      "average_precision": 0.0,
+      "brier": 0.0
+    },
+    "evaluations": 620
+  },
+  "split_first_results": {
+    "max_metric_difference": {
+      "auroc": 0.0,
+      "average_precision": 0.0,
+      "brier": 0.0
+    },
+    "evaluations": 620
+  },
+  "annotation_filtered_results": {
+    "max_metric_difference": {
+      "auroc": 0.0,
+      "average_precision": 0.0,
+      "brier": 0.0
+    },
+    "evaluations": 620
+  }
+}

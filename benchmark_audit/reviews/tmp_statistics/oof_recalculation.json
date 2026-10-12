@@ -1,0 +1,86 @@
+{
+  "results": {
+    "score_rows": 834210,
+    "full_runs": 155,
+    "evaluations": 620,
+    "max_metric_difference": 1.2574389717245893e-06,
+    "peptide_hla_all_run": {
+      "exact_closed_matching": {
+        "mean": 0.3261593726,
+        "min": 0.3211428021,
+        "max": 0.3350676471
+      },
+      "source_peptide_sorted": {
+        "mean": 0.71463937,
+        "min": 0.7103377058,
+        "max": 0.7182143404
+      },
+      "source_release_order": {
+        "mean": 0.5108596266,
+        "min": 0.5042159194,
+        "max": 0.5187480986
+      },
+      "source_row_shuffled": {
+        "mean": 0.3297992593,
+        "min": 0.3211972799,
+        "max": 0.3410826459
+      }
+    }
+  },
+  "split_first_results": {
+    "score_rows": 824972,
+    "full_runs": 155,
+    "evaluations": 620,
+    "max_metric_difference": 4.902778849569245e-09,
+    "peptide_hla_all_run": {
+      "exact_closed_matching": {
+        "mean": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      },
+      "source_peptide_sorted": {
+        "mean": 0.5558443585,
+        "min": 0.5434817258,
+        "max": 0.5633408591
+      },
+      "source_release_order": {
+        "mean": 0.5168048952,
+        "min": 0.5114481829,
+        "max": 0.5223491648
+      },
+      "source_row_shuffled": {
+        "mean": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    }
+  },
+  "annotation_filtered_results": {
+    "score_rows": 814804,
+    "full_runs": 155,
+    "evaluations": 620,
+    "max_metric_difference": 6.476221616757982e-07,
+    "peptide_hla_all_run": {
+      "exact_closed_matching": {
+        "mean": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      },
+      "source_peptide_sorted": {
+        "mean": 0.5618565011,
+        "min": 0.5532016153,
+        "max": 0.5737538088
+      },
+      "source_release_order": {
+        "mean": 0.5187752368,
+        "min": 0.5138575238,
+        "max": 0.5231799595
+      },
+      "source_row_shuffled": {
+        "mean": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    }
+  }
+}

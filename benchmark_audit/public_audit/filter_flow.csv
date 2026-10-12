@@ -1,0 +1,11 @@
+filter,n,n_before_dedup,peptides,hlas,betas
+raw_release,92771,,,,
+human,85329,,,,
+TRB,49686,,,,
+MHCI,47005,,,,
+exact_two_field_HLA,35278,,,,
+canonical_CDR3,35242,,,,
+peptide_8_to_15,35237,,,,
+score_ge_0,29306,35237.0,927.0,41.0,27078.0
+score_ge_1,3182,4538.0,253.0,41.0,3061.0
+score_eq_3,320,594.0,38.0,11.0,308.0

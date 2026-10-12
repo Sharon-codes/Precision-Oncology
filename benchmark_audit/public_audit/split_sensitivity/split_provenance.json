@@ -1,0 +1,102 @@
+{
+  "design": "Five deterministic peptide-component partitions; ten collator RNG seeds per test partition/order; partition weights60/20/20 by number of connected components, actual row counts reported. No model fitting or OOD performance claims.",
+  "split_rng": "numpy.default_rng(200000+split_seed)",
+  "distance": "unit-cost Levenshtein edit distance; connected components at distance<=2",
+  "splits": [
+    {
+      "split_seed": 0,
+      "n_components": 221,
+      "partition_component_counts": {
+        "train": 132,
+        "validation": 44,
+        "test": 45
+      },
+      "partition_row_counts": {
+        "train": 1629,
+        "test": 1022,
+        "validation": 531
+      },
+      "minimum_cross_partition_levenshtein": 3,
+      "test_retained_n": 509,
+      "test_retention_fraction": 0.4980430528375734,
+      "test_unique_peptides": 56,
+      "retained_unique_peptides": 33
+    },
+    {
+      "split_seed": 1,
+      "n_components": 221,
+      "partition_component_counts": {
+        "train": 132,
+        "validation": 44,
+        "test": 45
+      },
+      "partition_row_counts": {
+        "train": 1771,
+        "test": 877,
+        "validation": 534
+      },
+      "minimum_cross_partition_levenshtein": 3,
+      "test_retained_n": 546,
+      "test_retention_fraction": 0.6225769669327252,
+      "test_unique_peptides": 51,
+      "retained_unique_peptides": 41
+    },
+    {
+      "split_seed": 2,
+      "n_components": 221,
+      "partition_component_counts": {
+        "train": 132,
+        "validation": 44,
+        "test": 45
+      },
+      "partition_row_counts": {
+        "train": 1808,
+        "validation": 731,
+        "test": 643
+      },
+      "minimum_cross_partition_levenshtein": 3,
+      "test_retained_n": 380,
+      "test_retention_fraction": 0.5909797822706065,
+      "test_unique_peptides": 52,
+      "retained_unique_peptides": 47
+    },
+    {
+      "split_seed": 3,
+      "n_components": 221,
+      "partition_component_counts": {
+        "train": 132,
+        "validation": 44,
+        "test": 45
+      },
+      "partition_row_counts": {
+        "train": 1703,
+        "validation": 1107,
+        "test": 372
+      },
+      "minimum_cross_partition_levenshtein": 3,
+      "test_retained_n": 271,
+      "test_retention_fraction": 0.728494623655914,
+      "test_unique_peptides": 51,
+      "retained_unique_peptides": 40
+    },
+    {
+      "split_seed": 4,
+      "n_components": 221,
+      "partition_component_counts": {
+        "train": 132,
+        "validation": 44,
+        "test": 45
+      },
+      "partition_row_counts": {
+        "train": 2153,
+        "test": 593,
+        "validation": 436
+      },
+      "minimum_cross_partition_levenshtein": 3,
+      "test_retained_n": 190,
+      "test_retention_fraction": 0.32040472175379425,
+      "test_unique_peptides": 56,
+      "retained_unique_peptides": 34
+    }
+  ]
+}

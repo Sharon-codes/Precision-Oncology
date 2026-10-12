@@ -1,0 +1,96 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=23mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,booktabs,longtable,array,graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\definecolor{navy}{HTML}{244B65}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\title{Author review and evidence ledger\\\large Reconstruction for \textit{Interdisciplinary Sciences: Computational Life Sciences}}
+\author{Adversarial computational review; not journal peer review}
+\date{12 October 2026}
+\begin{document}
+\maketitle
+\section{Decision and scope}
+\textbf{The strongest supportable revision is a new computational benchmark-construction audit.} It is not a validation of the supplied manuscript's headline binding predictor. The new paper contains executed public-data experiments, a proved and independently tested construction contract, trained metadata controls, explicit negative results, and quantified coverage limitations.
+
+An initial panel of five AI reviewer roles examined methods, biology, editorial fit, executable source behavior and public-data construction. They exchanged objections and reviewed the revised draft. Their reports are included as a transparent simulated review record; none represents an external human referee or the journal. After correcting the issues below, the reviewers found the revised computations and bounded interpretations defensible. This is confidence in the demonstrated audit, not a prediction of acceptance.
+
+\textbf{New title:} Batch-dependent negative sampling and marginal-preserving decoy construction in TCR--peptide benchmarks.
+
+\textbf{Why the central story changed.} The supplied PDF and its pinned source repository do not establish the same experiment. The paper's claimed AUROC 0.8753 and 7,416 test examples could not be traced to archived predictions, checkpoints or cohort manifests. Archived source outputs instead contain AUROC 0.6810 and 4,820 examples. These discrepancies are unresolved; neither selecting the larger number nor inventing replacement training would fix them. The revised manuscript removes the original performance superiority claims and can stand on its newly executed evidence.
+
+\section{What the reviewers argued about}
+\begin{longtable}{p{.22\textwidth}p{.70\textwidth}}
+\toprule
+Challenge & Resolution incorporated in the paper\\\midrule
+\endhead
+Can simulations rescue the original model? & Biology and editorial reviewers rejected that inference. A versioned human VDJdb audit and trained metadata controls were added. They evaluate construction, not the unavailable model.\\
+Does any sampler bias constitute novel work? & No. Dens 2023, Grazioli 2022, Castorina 2025, Lu 2026 and Mi 2026 narrow the novelty. The paper now claims an implementation-specific fallback mechanism, executable invariants, and measured feasibility costs.\\
+Is the correction better than shuffling? & Only for its additional contract. Shuffling already removes the measured primary-cohort marginal signal. It still generates registered-positive contradictions; the paper explicitly reports both facts.\\
+Is ordinary positive rejection enough? & A newly executed within-HLA rejection reference removes contradictions but retains peptide TV 0.1349. Exact expected TV 0.1020 shows an accepted-distribution effect beyond sampling noise.\\
+Does the matching optimize every possible negative design? & No. The theorem applies to a maximum retained closed row subset within HLA. An unrestricted bipartite match is only an upper bound. Exhaustive tests confirmed this distinction.\\
+Should below-chance classifier results be hidden? & No. The initial globally constructed data gave AUROC about 0.326 for matching. Methods identified complementary-fold coupling, retained the result, and reran construction inside frozen folds. The primary matched and shuffled controls then give 0.5.\\
+Do format-valid HLA names establish valid alleles? & No. Biology found two flagged source labels. An official contemporaneous nomenclature check confirmed them, and both construction and trained controls were independently rerun after exclusions. Conclusions persist.\\
+Do zero collisions imply nonbinding? & No. The key is beta--peptide--source-HLA, with omitted alpha/V/J context. Absent tuples have unknown binding status. All clinical and affinity claims were removed.\\
+Does exact balance preserve the original population? & No. It retains 84.57\% of primary rows and 22/41 source HLA strata; distance-separated test retention is only 32.04--72.85\%. These are central reported limitations.\\
+\bottomrule
+\end{longtable}
+
+\section{Original claim disposition}
+\begin{longtable}{p{.27\textwidth}p{.65\textwidth}}
+\toprule
+Supplied-paper claim & Evidence and disposition\\\midrule
+\endhead
+AUROC 0.8753 and strong model superiority & No corresponding cohort/checkpoint/prediction artifacts found at declared commit. Archived values differ. Withdrawn, not replaced by a fabricated neural result.\\
+Single beta-chain architecture; mean pooling & Repository model uses alpha and beta branches, peptide/HLA inputs, and a flattened 110-by-64 feature representation. Written architecture does not describe that code. Neural architecture removed from the revised audit.\\
+Positive hash rejects every known binder & The source collator stores the supplied positive set but never consults it. Executed counterexamples and public-cohort collision counts replace this assurance.\\
+Leakage-free split pseudocode & The written preliminary-train filter can violate its final distance guarantee after rejected candidates are moved into training. The repository's connected-component split is valid in principle. The paper does not allege observed leakage in that implementation.\\
+Official baseline comparisons & Local proxy classes and missing verification artifacts do not establish faithful evaluation of published model implementations. Original SOTA tables and ranking claims removed.\\
+Five independent model training seeds & Archived repetitions change decoy randomness against the same checkpoint. New experiments identify sampler, split and model randomness explicitly.\\
+Clinical precision and calibration & A balanced decoy benchmark cannot establish deployment precision. Archived Brier 0.3103 is worse than a constant 0.5 predictor's 0.25 in that setting. Clinical/calibration superiority claims removed.\\
+Attention homogenization destroys information & High cosine similarity alone is insufficient. An executed synthetic control increases cosine from about 0.011 to 0.992 while preserving fixed-score AUROC about 0.99995. This is a mathematical counterexample, not a claim about the original model's actual attention. The causal neural claim is withdrawn.\\
+Human-only immunogenetic plots & Original figures include mouse annotations, conflicting with the written filter. All scientific figures in the revision are newly drawn from the declared public audit; human eligibility is explicit.\\
+Complete bibliographic support & Incorrect model attribution and incomplete prior-art positioning corrected against publisher records. The bibliography is rebuilt around the revised claim.\\
+\bottomrule
+\end{longtable}
+
+\section{Executed evidence and independent checks}
+The principal dataset is the frozen VDJdb 2023-06-01 release. Human TRB/class-I, sequence and source-label syntax filters produce 3,182 distinct score-$\geq1$ positive tuples, 253 peptides and 41 source HLA strata. The paper distinguishes this raw-annotation cohort from nomenclature-filtered sensitivity populations.
+
+\begin{itemize}
+\item \textbf{Synthetic mechanism:} 4,096 rows, nine peptide categories, 100 sampler seeds. Fixed peptide-only AUROC is 0.7187 for sorted batches, 0.5246 for shuffled batches and 0.5000 for an exact cyclic control.
+\item \textbf{Main source grid:} 541 runs and 3,770,361 generated decoys across confidence cohorts, input orders and batch sizes. Complete per-run results are supplied.
+\item \textbf{Closed assignment:} 2,691/3,182 positives retained. Zero declared registry contradictions and exact retained marginal equality. Independent exhaustive verification examines 924,960 permutations across 166 fixtures.
+\item \textbf{Rejection comparator:} 30 seeds on the exact common retained cohort. Contradictions are zero, but peptide TV and identity-oracle AUROC are approximately 0.135 and 0.599. Matching's 0.5 oracle follows from its contract, not model skill.
+\item \textbf{Trained controls:} Five receptor-fold assignments and ten decoy seeds per source regime. The split-first peptide/HLA model gives sorted AUROC 0.5558, release-order 0.5168 and shuffled/matched 0.5000. The original construction-first sensitivity is retained.
+\item \textbf{Distance separation:} Five independently generated component partitions have minimum cross-partition peptide edit distance 3. Feasible retained test coverage is 32.04--72.85\%; no unseen-peptide binding model was trained.
+\item \textbf{HLA annotation robustness:} All 41 labels were checked against frozen official IPD-IMGT/HLA 3.52.0. Excluding A*08:01 and deleted legacy A*24:01 leaves 3,108 positives and 39 labels. Assignment retains 2,665 rows (85.75\%) across 21 strata. Source-sampler contradictions persist; independently regenerated split-first sorted metadata AUROC is 0.5619, versus 0.5 for shuffling and matching.
+\item \textbf{Archived prediction verification:} A standalone program reconstructs stored aggregates and pooled/fold AUROC, average precision and Brier metrics from probability outputs, checking receptor-disjoint folds, common positive cohorts and label balance. The machine-readable report records exact assertion counts and verification scope.
+\end{itemize}
+The main text has five newly drawn vector figures; the supplement adds a batch-size figure and detailed tables. Original scientific images were not reused to imply that old model results were reproduced.
+
+\section{Fresh final panel requested by the authors}
+After completion of the revised paper, three new AI referees independently reviewed statistical validity, biological/editorial interpretation and reproducibility, then exchanged their objections. Their complete reports and machine-readable checks accompany the archive. These are simulated AI reviews, not external journal decisions.
+
+The statistical referee independently recomputed all 1,860 pooled metric evaluations exactly, examined additional small graph instances and verified actual closed assignment cycles. The reproducibility referee freshly fitted one fold-seed/decoy-seed subset across all four samplers and four model controls: 21,336 out-of-fold rows, 16 pooled metrics and 80 fold metrics matched the archive exactly. This fresh fitting covered a subset; the separate archived-output verifier checked all 2,473,986 prediction rows. The biological referee independently reconstructed the main cohort and nomenclature exclusions and identified the closest frequency-bias precedents.
+
+The final revisions add TEINet and earlier known-partner/partition-first work, distinguish representative reconstruction indices from actual donor-cycle witnesses, archive the synthetic fitting positive control, correct the displayed rounding to 0.7916, remove a Figure~5 annotation overlap, and provide a lawful editor-mediated access route to the exact source. Reproducibility fixes prevent annotation-control output from overwriting the primary experiment and prevent stale files entering regenerated packages. Historical executed-code hashes remain historical; later portability-only edits are documented separately.
+
+The 58 actual assignment witnesses cover 33,839 assignments and were independently checked for closed receiver/donor sets, no fixed points, within-HLA transitions, absent registry tuples and agreement with reconstructed decoys. The final source package, supplementary material and scientific claims retain all negative findings and coverage costs. After checking the final revisions, all three fresh referees reported no unresolved blocker within the construction-audit scope. Review confidence applies to this bounded construction audit; it does not establish biological nonbinding, neural superiority or journal acceptance.
+
+\section{Remaining author work before submission}
+The technical revision is complete for the stated construction-audit scope. Submission still requires factual author verification: author order and affiliations; funding; competing interests; actual human contributions; acknowledgments; and any applicable institutional ethics statement. These cannot be truthfully inferred from code. The separate title-page template marks those fields rather than inventing them. All authors must read and approve the revised work and the substantive AI-assistance disclosure.
+
+The original repository README says the work is under review elsewhere. This may be stale; it does not establish present status. Confirm that the manuscript is eligible for a new submission before making any originality or exclusive-submission declaration. No journal submission or external correspondence has been made.
+
+The journal uses double-anonymous review. The main PDF omits author identities; the title page is separate. The complete reproducibility archive is an \textbf{author archive}: source licenses, pinned provenance and reviewer reports can identify the original authors. Do not upload it wholesale as an anonymous reviewer supplement. The lightweight LaTeX archive separates \texttt{author\_only/}; provide the editor the full provenance and prepare the source supplement according to the journal's anonymity instructions. Copyright notices must not be stripped to disguise provenance.
+
+For the user's fee constraint, the publisher explicitly offers subscription publication without an article-processing charge. Select that route if it fits the authors' actual obligations; optional open access is chargeable. Verified publisher pages (12 October 2026):
+\begin{itemize}
+\item \url{https://link.springer.com/journal/12539/submission-guidelines}
+\item \url{https://link.springer.com/journal/12539/how-to-publish-with-us}
+\end{itemize}
+\textbf{Confidence boundary.} The paper now makes testable, reproducible computational claims supported by executed outputs and independent checks. Its venue fit is plausible but the contribution remains incremental, and acceptance cannot be certified. Improved biological binding prediction would require additional independent assay evidence and interaction-aware models; the current paper does not claim that result.
+\end{document}

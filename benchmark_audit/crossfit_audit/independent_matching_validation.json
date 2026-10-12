@@ -1,0 +1,17 @@
+{
+  "independent_bruteforce_graph_checks": 120,
+  "graph_size_range": [
+    2,
+    7
+  ],
+  "public_retained_positive_rows": 2691,
+  "public_original_positive_rows": 3182,
+  "exact_marginals_independently_confirmed": [
+    "beta",
+    "peptide",
+    "hla",
+    "peptide_hla"
+  ],
+  "known_positive_triple_collisions": 0,
+  "verdict": "cycle-cover correction passed independent finite exhaustive tests and public CSV invariants"
+}

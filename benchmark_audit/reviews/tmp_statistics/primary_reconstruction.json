@@ -1,0 +1,28 @@
+{
+  "eligible_rows": 35237,
+  "positive_n": 3182,
+  "retained_n": 2691,
+  "retained_hla": 22,
+  "retained_peptide": 236,
+  "negative_unique": 2624,
+  "cycle_closure_on_actual_donor_indices": true,
+  "reconstructed_manifest_matches": true,
+  "positive_source_replay_seed0": {
+    "release_order": {
+      "contradictions": 93,
+      "peptide_tv": 0.1285355122564425,
+      "fallback_count": 428
+    },
+    "peptide_sorted": {
+      "contradictions": 29,
+      "peptide_tv": 0.43526084223758643,
+      "fallback_count": 1498
+    },
+    "row_shuffled": {
+      "contradictions": 9,
+      "peptide_tv": 0.0,
+      "fallback_count": 0
+    }
+  },
+  "hla_tv": 0.12741239333757032
+}

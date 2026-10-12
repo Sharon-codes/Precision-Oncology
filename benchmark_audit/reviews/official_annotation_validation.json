@@ -1,0 +1,319 @@
+{
+  "nomenclature_release": "IPD-IMGT/HLA 3.52.0, file date 2023-04-17",
+  "official_git_commit": "38398a75e9762ff070d8e9bd714d074332646cd7",
+  "official_git_tag": "v3.52.0-alpha",
+  "scope": "Presence of an active official allele with the same two-field prefix; does not validate the biological annotation of a source assay.",
+  "nomenclature_sha256": "8f77746876f13981d3f593e360e9cc35fd6b6b6b746db1f2f5e20d1a21c0cbd2",
+  "deleted_alleles_sha256": "de304e760edf70e60ee7524cf21572da96f99e132c52f62aa31b825895cfc1eb",
+  "official_nomenclature_url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/38398a75e9762ff070d8e9bd714d074332646cd7/wmda/hla_nom.txt",
+  "official_deleted_alleles_url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/38398a75e9762ff070d8e9bd714d074332646cd7/Deleted_alleles.txt",
+  "legacy_A2401_deletion_record": "HLA00049,A*2401,Sequence shown to contain errors (March 1995)",
+  "checks": [
+    {
+      "source_hla_label": "HLA-A*01:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 172,
+      "retained_n": 82
+    },
+    {
+      "source_hla_label": "HLA-A*02:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1367,
+      "retained_n": 1367
+    },
+    {
+      "source_hla_label": "HLA-A*02:06",
+      "has_active_two_field_prefix": true,
+      "primary_n": 2,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-A*03:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 71,
+      "retained_n": 71
+    },
+    {
+      "source_hla_label": "HLA-A*08:01",
+      "has_active_two_field_prefix": false,
+      "primary_n": 2,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-A*11:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 161,
+      "retained_n": 161
+    },
+    {
+      "source_hla_label": "HLA-A*24:01",
+      "has_active_two_field_prefix": false,
+      "primary_n": 72,
+      "retained_n": 26
+    },
+    {
+      "source_hla_label": "HLA-A*24:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 77,
+      "retained_n": 61
+    },
+    {
+      "source_hla_label": "HLA-A*25:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-A*29:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 3,
+      "retained_n": 3
+    },
+    {
+      "source_hla_label": "HLA-A*30:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 6,
+      "retained_n": 4
+    },
+    {
+      "source_hla_label": "HLA-A*32:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-A*68:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 31,
+      "retained_n": 8
+    },
+    {
+      "source_hla_label": "HLA-B*07:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 328,
+      "retained_n": 328
+    },
+    {
+      "source_hla_label": "HLA-B*08:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 228,
+      "retained_n": 146
+    },
+    {
+      "source_hla_label": "HLA-B*14:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-B*15:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 2,
+      "retained_n": 2
+    },
+    {
+      "source_hla_label": "HLA-B*18:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 2,
+      "retained_n": 2
+    },
+    {
+      "source_hla_label": "HLA-B*27:05",
+      "has_active_two_field_prefix": true,
+      "primary_n": 130,
+      "retained_n": 38
+    },
+    {
+      "source_hla_label": "HLA-B*35:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 109,
+      "retained_n": 109
+    },
+    {
+      "source_hla_label": "HLA-B*35:08",
+      "has_active_two_field_prefix": true,
+      "primary_n": 34,
+      "retained_n": 34
+    },
+    {
+      "source_hla_label": "HLA-B*38:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 3,
+      "retained_n": 3
+    },
+    {
+      "source_hla_label": "HLA-B*40:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 2,
+      "retained_n": 2
+    },
+    {
+      "source_hla_label": "HLA-B*42:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 140,
+      "retained_n": 140
+    },
+    {
+      "source_hla_label": "HLA-B*44:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 2,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-B*44:03",
+      "has_active_two_field_prefix": true,
+      "primary_n": 2,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-B*44:05",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-B*51:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 13,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-B*57:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 145,
+      "retained_n": 80
+    },
+    {
+      "source_hla_label": "HLA-B*57:06",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-B*81:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 16,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-C*01:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 2,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-C*03:03",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-C*03:04",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-C*04:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-C*05:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-C*06:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-C*07:01",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    },
+    {
+      "source_hla_label": "HLA-C*07:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 41,
+      "retained_n": 20
+    },
+    {
+      "source_hla_label": "HLA-C*08:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 7,
+      "retained_n": 4
+    },
+    {
+      "source_hla_label": "HLA-C*14:02",
+      "has_active_two_field_prefix": true,
+      "primary_n": 1,
+      "retained_n": 0
+    }
+  ],
+  "manifest_reconstructions": [
+    {
+      "filename": "clean_corrected_seed0.csv",
+      "positive_n": 2665,
+      "negative_n": 2665,
+      "source_row_reconstruction_passed": true,
+      "excluded_labels_absent": true,
+      "manifest_sha256": "33deb89f7453f733dc2f07b4c936040d144468fa1cd7e39a17f906921019da49",
+      "all_declared_marginals_identical": true,
+      "exact_pairs_equal_original_minus_excluded_strata": true
+    },
+    {
+      "filename": "clean_score_ge_1_peptide_sorted_seed0.csv",
+      "positive_n": 3108,
+      "negative_n": 3108,
+      "source_row_reconstruction_passed": true,
+      "excluded_labels_absent": true,
+      "manifest_sha256": "8f3bdff251cf90c736606ca04c5ff1ee1e00737e554a41abf100c347aceb20d1"
+    },
+    {
+      "filename": "clean_score_ge_1_release_order_seed0.csv",
+      "positive_n": 3108,
+      "negative_n": 3108,
+      "source_row_reconstruction_passed": true,
+      "excluded_labels_absent": true,
+      "manifest_sha256": "775b8a050b2464114d88c497603a34d49b3130dbdb91f38ce5b3241ae4bcc343"
+    },
+    {
+      "filename": "clean_score_ge_1_retained_peptide_sorted_seed0.csv",
+      "positive_n": 2665,
+      "negative_n": 2665,
+      "source_row_reconstruction_passed": true,
+      "excluded_labels_absent": true,
+      "manifest_sha256": "f376bc247fda889baf3c0d92e9cc06c2bf3b7e9becd1122ce1c80fafdd574f98"
+    },
+    {
+      "filename": "clean_score_ge_1_retained_release_order_seed0.csv",
+      "positive_n": 2665,
+      "negative_n": 2665,
+      "source_row_reconstruction_passed": true,
+      "excluded_labels_absent": true,
+      "manifest_sha256": "fc64ef43f5948cd4cb48c4fb78b7668ce0b24a14918b359b8e9c29589d164032"
+    },
+    {
+      "filename": "clean_score_ge_1_retained_row_shuffled_seed0.csv",
+      "positive_n": 2665,
+      "negative_n": 2665,
+      "source_row_reconstruction_passed": true,
+      "excluded_labels_absent": true,
+      "manifest_sha256": "f9bbe510ec9e11df0196665f9e879efb18372804227741eab2a0f977ee921dd8"
+    },
+    {
+      "filename": "clean_score_ge_1_row_shuffled_seed0.csv",
+      "positive_n": 3108,
+      "negative_n": 3108,
+      "source_row_reconstruction_passed": true,
+      "excluded_labels_absent": true,
+      "manifest_sha256": "67ea5dfa100a9f122f2f021471316df06a52de2db44064186e8bab620ea84e10"
+    }
+  ]
+}

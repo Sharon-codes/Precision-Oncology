@@ -1,0 +1,35 @@
+{
+  "common_cohort_beta_hla_marginal_equal": true,
+  "split_first_matching_manifest_checks": [
+    {
+      "manifest": "f107_exact_closed_matching_s0.csv",
+      "rows": 2670,
+      "within_hla": true,
+      "joint_antigen_balanced_in_each_fold": true
+    },
+    {
+      "manifest": "f17_exact_closed_matching_s0.csv",
+      "rows": 2667,
+      "within_hla": true,
+      "joint_antigen_balanced_in_each_fold": true
+    },
+    {
+      "manifest": "f211_exact_closed_matching_s0.csv",
+      "rows": 2658,
+      "within_hla": true,
+      "joint_antigen_balanced_in_each_fold": true
+    },
+    {
+      "manifest": "f41_exact_closed_matching_s0.csv",
+      "rows": 2659,
+      "within_hla": true,
+      "joint_antigen_balanced_in_each_fold": true
+    },
+    {
+      "manifest": "f73_exact_closed_matching_s0.csv",
+      "rows": 2652,
+      "within_hla": true,
+      "joint_antigen_balanced_in_each_fold": true
+    }
+  ]
+}

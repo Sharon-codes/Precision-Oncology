@@ -1,0 +1,12 @@
+hla,n_positive,n_retained,dominant_peptide_n,maximum_bipartite_matching_size,n_distinct_peptides
+HLA-A*02:01,230,88,186,88,10
+HLA-A*03:01,8,6,5,6,3
+HLA-A*11:01,7,7,3,7,4
+HLA-B*07:02,19,16,11,16,3
+HLA-B*08:01,20,6,17,6,2
+HLA-B*35:01,18,16,10,16,4
+HLA-B*35:08,10,0,2,1,9
+HLA-B*42:01,1,0,1,0,1
+HLA-B*57:06,1,0,1,0,1
+HLA-B*81:01,1,0,1,0,1
+HLA-C*08:02,5,0,5,0,1

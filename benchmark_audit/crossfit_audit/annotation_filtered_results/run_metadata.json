@@ -1,0 +1,58 @@
+{
+  "purpose": "Split-before-construction metadata control within an antigen collection; not unseen-peptide binding prediction",
+  "source_sha256": "2823281ece02f37b15cdd9187be374e99ee7b46e041572fc2cde4b295a9bf52e",
+  "cohort": "VDJdb2023-06-01 strict human TRB MHCI score>=1",
+  "fold_seeds": [
+    17,
+    41,
+    73,
+    107,
+    211
+  ],
+  "n_folds": 5,
+  "sampling_seeds": 10,
+  "draw_seed_rule": "sampling_seed + 10000 * fold",
+  "retention": "maximum closed within-HLA known-positive-excluding assignment separately in each receptor fold",
+  "common_population": "all samplers on same retained positives within each fold seed; cohort differs across fold seeds",
+  "training": "onehot fit only training folds; C1 liblinear tol1e-8; no receptor sequence for antigen models",
+  "uncertainty": "mean of fold-seed metrics then SD/range across negative-sampling seeds; not population CI",
+  "protocol_note": "Original global-construction-then-crossfit retained as separate sensitivity because exact global marginals couple complementary fold label imbalances",
+  "annotation_sensitivity": {
+    "excluded_source_labels": [
+      "HLA-A*08:01",
+      "HLA-A*24:01"
+    ],
+    "policy": "Remove rows from every cohort and exclusion reference, without recoding; regenerate receptor folds",
+    "counts": {
+      "score_ge_0": {
+        "before": 29306,
+        "after": 29146,
+        "excluded": 160,
+        "hla_strata_after": 39
+      },
+      "score_ge_1": {
+        "before": 3182,
+        "after": 3108,
+        "excluded": 74,
+        "hla_strata_after": 39
+      },
+      "score_eq_3": {
+        "before": 320,
+        "after": 320,
+        "excluded": 0,
+        "hla_strata_after": 11
+      },
+      "reference": {
+        "before": 29306,
+        "after": 29146,
+        "excluded": 160
+      }
+    },
+    "comparison_scope": "Sensitivity to two flagged source labels, not comprehensive allele nomenclature validation"
+  },
+  "source_code_sha256": {
+    "run_crossfit.py": "5bdbc4c805f570a3879f9d226bba6be2b64ad8b83ad5a41b6a51462311f84d89",
+    "run_split_first.py": "852d9004409a5c6366fda02776adf681681f01bec19884c4b2ea40149cb3df51",
+    "run_annotation_filtered.py": "0e9a8273431e0bbf8873b153db4f407eb43f9495ee5d83029746a9e9bbc5ed10"
+  }
+}

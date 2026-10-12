@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "fresh_packaging_replaces_stale_sequence_and_obsolete_sentinels": true,
+  "checksum_files_verified": 694,
+  "packaging_script_sha256": "c8c1474fcca4d61c959534a5c4f3913831cba2916c274b370c2dfa9c9768a06b"
+}

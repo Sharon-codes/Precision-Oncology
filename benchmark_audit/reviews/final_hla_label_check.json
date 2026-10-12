@@ -1,0 +1,223 @@
+{
+  "nomenclature_file_sha256": "6620fbd3f7238e9f26947bb0353cc361e68f24dc300b1fe3d17bdf79721e86a5",
+  "reference_scope": "Current cloned VDJdb proofreading/mhc_alleles.tsv.gz, not an independently fetched current IPD release",
+  "checks": [
+    {
+      "source_hla": "HLA-A*01:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 172
+    },
+    {
+      "source_hla": "HLA-A*02:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1367
+    },
+    {
+      "source_hla": "HLA-A*02:06",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 2
+    },
+    {
+      "source_hla": "HLA-A*03:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 71
+    },
+    {
+      "source_hla": "HLA-A*08:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": false,
+      "primary_count": 2
+    },
+    {
+      "source_hla": "HLA-A*11:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 161
+    },
+    {
+      "source_hla": "HLA-A*24:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": false,
+      "primary_count": 72
+    },
+    {
+      "source_hla": "HLA-A*24:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 77
+    },
+    {
+      "source_hla": "HLA-A*25:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-A*29:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 3
+    },
+    {
+      "source_hla": "HLA-A*30:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 6
+    },
+    {
+      "source_hla": "HLA-A*32:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-A*68:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 31
+    },
+    {
+      "source_hla": "HLA-B*07:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 328
+    },
+    {
+      "source_hla": "HLA-B*08:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 228
+    },
+    {
+      "source_hla": "HLA-B*14:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-B*15:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 2
+    },
+    {
+      "source_hla": "HLA-B*18:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 2
+    },
+    {
+      "source_hla": "HLA-B*27:05",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 130
+    },
+    {
+      "source_hla": "HLA-B*35:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 109
+    },
+    {
+      "source_hla": "HLA-B*35:08",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 34
+    },
+    {
+      "source_hla": "HLA-B*38:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 3
+    },
+    {
+      "source_hla": "HLA-B*40:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 2
+    },
+    {
+      "source_hla": "HLA-B*42:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 140
+    },
+    {
+      "source_hla": "HLA-B*44:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 2
+    },
+    {
+      "source_hla": "HLA-B*44:03",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 2
+    },
+    {
+      "source_hla": "HLA-B*44:05",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-B*51:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 13
+    },
+    {
+      "source_hla": "HLA-B*57:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 145
+    },
+    {
+      "source_hla": "HLA-B*57:06",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-B*81:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 16
+    },
+    {
+      "source_hla": "HLA-C*01:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 2
+    },
+    {
+      "source_hla": "HLA-C*03:03",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-C*03:04",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-C*04:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-C*05:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-C*06:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-C*07:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    },
+    {
+      "source_hla": "HLA-C*07:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 41
+    },
+    {
+      "source_hla": "HLA-C*08:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 7
+    },
+    {
+      "source_hla": "HLA-C*14:02",
+      "has_two_field_prefix_in_vdjdb_nomenclature": true,
+      "primary_count": 1
+    }
+  ],
+  "unknown_hla": [
+    {
+      "source_hla": "HLA-A*08:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": false,
+      "primary_count": 2
+    },
+    {
+      "source_hla": "HLA-A*24:01",
+      "has_two_field_prefix_in_vdjdb_nomenclature": false,
+      "primary_count": 72
+    }
+  ]
+}

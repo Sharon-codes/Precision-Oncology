@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "stage_files_at_test": 645,
+  "independent_copy_with_spaces": true,
+  "cwd_outside_archive": true,
+  "no_extracted_tsv": true,
+  "verify_only_entrypoint_exit_code": 0,
+  "numeric_and_certificate_assertions": 19726,
+  "limits": "This entrypoint portability check is distinct from the reviewer independently regenerated subset. It does not run the full analysis grid."
+}

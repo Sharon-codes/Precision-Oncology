@@ -1,0 +1,269 @@
+{
+  "purpose": "within-antigen-collection label-construction negative control; not epitope-OOD prediction",
+  "version": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "fold_seeds": [
+    17,
+    41,
+    73,
+    107,
+    211
+  ],
+  "n_folds": 5,
+  "group": "exact cdr3_beta string",
+  "model": {
+    "name": "LogisticRegression",
+    "C": 1.0,
+    "solver": "liblinear",
+    "tol": 1e-08,
+    "max_iter": 2000
+  },
+  "features": {
+    "peptide_hla": [
+      "peptide",
+      "hla"
+    ],
+    "peptide": [
+      "peptide"
+    ],
+    "hla": [
+      "hla"
+    ],
+    "receptor": [
+      "tcr_beta"
+    ]
+  },
+  "inputs": [
+    {
+      "sampler": "exact_closed_matching",
+      "sampling_seed": 0,
+      "cohort": "common_retained",
+      "file": "common_corrected_seed0.csv",
+      "sha256": "639cfef51088342ca969d6045db49a017ad0b0d8f5ae4a887e91dc362cfbb3d2"
+    },
+    {
+      "sampler": "source_release_order",
+      "sampling_seed": 0,
+      "cohort": "common_retained",
+      "file": "common_original_release_order_seed0.csv",
+      "sha256": "2cb629242f326704b09e7ff97f6f9b8defa759664dc95bdec29924447b5d7d02"
+    },
+    {
+      "sampler": "source_release_order",
+      "sampling_seed": 1,
+      "cohort": "common_retained",
+      "file": "common_original_release_order_seed1.csv",
+      "sha256": "d6632b272ce94cf7f0af62f8510788b65a825f748618ae66c3feca13f20683df"
+    },
+    {
+      "sampler": "source_release_order",
+      "sampling_seed": 2,
+      "cohort": "common_retained",
+      "file": "common_original_release_order_seed2.csv",
+      "sha256": "c9466fc3419c28d8d832a8820a16df90cb3e66183ef517056670e538d62b49ee"
+    },
+    {
+      "sampler": "source_release_order",
+      "sampling_seed": 3,
+      "cohort": "common_retained",
+      "file": "common_original_release_order_seed3.csv",
+      "sha256": "cb0f0a795c5a220857779a472848bee08d1a0cde0f5767cb56584543ca4893d8"
+    },
+    {
+      "sampler": "source_release_order",
+      "sampling_seed": 4,
+      "cohort": "common_retained",
+      "file": "common_original_release_order_seed4.csv",
+      "sha256": "a582c8c82d5f047bd75dd08fd1346dd06d480cf75e436ea5bf770de97c010848"
+    },
+    {
+      "sampler": "source_release_order",
+      "sampling_seed": 5,
+      "cohort": "common_retained",
+      "file": "common_original_release_order_seed5.csv",
+      "sha256": "d2f8d547198204c8a2b6d041e34316de397450f4def2dfca3a7fad9c974a4d30"
+    },
+    {
+      "sampler": "source_release_order",
+      "sampling_seed": 6,
+      "cohort": "common_retained",
+      "file": "common_original_release_order_seed6.csv",
+      "sha256": "f78e76084ab8437342aeab56a230bb27586532fbe5559f20db61efc769695c62"
+    },
+    {
+      "sampler": "source_release_order",
+      "sampling_seed": 7,
+      "cohort": "common_retained",
+      "file": "common_original_release_order_seed7.csv",
+      "sha256": "87cd1573815d7eb046dd5f735cd64d5b44fe272286d164f143835d879bcf181f"
+    },
+    {
+      "sampler": "source_release_order",
+      "sampling_seed": 8,
+      "cohort": "common_retained",
+      "file": "common_original_release_order_seed8.csv",
+      "sha256": "ff82272f7add083e7e5cc3e613d6b4e971307398f3871a23a51897e3ebcdad48"
+    },
+    {
+      "sampler": "source_release_order",
+      "sampling_seed": 9,
+      "cohort": "common_retained",
+      "file": "common_original_release_order_seed9.csv",
+      "sha256": "0ec921b60947e1484f41c0629c80c62c5950291b4aa2fd559cfdd7248c5a467e"
+    },
+    {
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 0,
+      "cohort": "common_retained",
+      "file": "common_original_peptide_sorted_seed0.csv",
+      "sha256": "a826557022695801f6b9317cb7bd6ba1c8ac0434633f52c2cd5f2571140e3427"
+    },
+    {
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 1,
+      "cohort": "common_retained",
+      "file": "common_original_peptide_sorted_seed1.csv",
+      "sha256": "729bb512d967e8249de78710f00aa6ababa911cfe850e81aa8b3a1155550e5bf"
+    },
+    {
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 2,
+      "cohort": "common_retained",
+      "file": "common_original_peptide_sorted_seed2.csv",
+      "sha256": "ea8ba771d9769bbea8d4aa266ad198184f1e203dd35ec21aa04ac652b9eef28b"
+    },
+    {
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 3,
+      "cohort": "common_retained",
+      "file": "common_original_peptide_sorted_seed3.csv",
+      "sha256": "8f6b6392e697a449fb3ed35646154560175ddc8ee0e8d548561d7b3ec975a66b"
+    },
+    {
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 4,
+      "cohort": "common_retained",
+      "file": "common_original_peptide_sorted_seed4.csv",
+      "sha256": "d266f83c5b8986c23f831a31826bbc15f87e3bc040ffcb15f65521e067cd2b65"
+    },
+    {
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 5,
+      "cohort": "common_retained",
+      "file": "common_original_peptide_sorted_seed5.csv",
+      "sha256": "243d6633f5dd111f0b3bd6bcbbad7e3ddc745479608aa945462151447db3082d"
+    },
+    {
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 6,
+      "cohort": "common_retained",
+      "file": "common_original_peptide_sorted_seed6.csv",
+      "sha256": "4b9d57938d2cb5f4854e60f04400c60bee49c2dbbfa45d819e3064252915ca7c"
+    },
+    {
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 7,
+      "cohort": "common_retained",
+      "file": "common_original_peptide_sorted_seed7.csv",
+      "sha256": "52609cc9caed9c35271ea7eeac085074a2c6b13c7d967872018433be6371d8ad"
+    },
+    {
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 8,
+      "cohort": "common_retained",
+      "file": "common_original_peptide_sorted_seed8.csv",
+      "sha256": "19cbe7ba4e545097946f778d123ff341ba30bbe629723a3a11ec41db894327ed"
+    },
+    {
+      "sampler": "source_peptide_sorted",
+      "sampling_seed": 9,
+      "cohort": "common_retained",
+      "file": "common_original_peptide_sorted_seed9.csv",
+      "sha256": "f589c224b8dd0219693868f44568a817f2d36443f62128837f8aa7920a1f5ac5"
+    },
+    {
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 0,
+      "cohort": "common_retained",
+      "file": "common_original_row_shuffled_seed0.csv",
+      "sha256": "9171397ca7954ffc24db809ebdb45ce3f4838fdffa637f3892a967de11caed22"
+    },
+    {
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 1,
+      "cohort": "common_retained",
+      "file": "common_original_row_shuffled_seed1.csv",
+      "sha256": "4b04d292fd71cf6f497254d38baec6bdff5e511a65135518a2fbd6b84d33d112"
+    },
+    {
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 2,
+      "cohort": "common_retained",
+      "file": "common_original_row_shuffled_seed2.csv",
+      "sha256": "5ca2164329650c2ec6caa1f1ac33cd798d04ba1fc5ece9b36c4ede3458d6c279"
+    },
+    {
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 3,
+      "cohort": "common_retained",
+      "file": "common_original_row_shuffled_seed3.csv",
+      "sha256": "8b06091277431346c046d6b922cab13e6c679439b82e1919e474a6a649d4e34a"
+    },
+    {
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 4,
+      "cohort": "common_retained",
+      "file": "common_original_row_shuffled_seed4.csv",
+      "sha256": "309a516e7623967b75f253c4a14132e1a3a4f3aebf2f0a331e1fb1aaf47935b5"
+    },
+    {
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 5,
+      "cohort": "common_retained",
+      "file": "common_original_row_shuffled_seed5.csv",
+      "sha256": "03ffe0d4dc649aa12e7e31dd3e27944206ea656d54e41d3f11e71ec2be32cf51"
+    },
+    {
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 6,
+      "cohort": "common_retained",
+      "file": "common_original_row_shuffled_seed6.csv",
+      "sha256": "4ac83af8bd6022da04cf9c5ce740e07bf4551cf5b56606e07e96cb94e60823a9"
+    },
+    {
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 7,
+      "cohort": "common_retained",
+      "file": "common_original_row_shuffled_seed7.csv",
+      "sha256": "14a927b28e605bbdad552be80c3164ffb47704c1a0aaf8328563915a0bd1e371"
+    },
+    {
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 8,
+      "cohort": "common_retained",
+      "file": "common_original_row_shuffled_seed8.csv",
+      "sha256": "45fcbed444e5e0a9201c67533dd55a03986a1100aa56c796919b439a8fa9f38d"
+    },
+    {
+      "sampler": "source_row_shuffled",
+      "sampling_seed": 9,
+      "cohort": "common_retained",
+      "file": "common_original_row_shuffled_seed9.csv",
+      "sha256": "54ddc4ca33f3dd3cb7e75330aac861eb25cc395757cd271f7a13e0f8b32f4eff"
+    }
+  ],
+  "uncertainty": "SD and range of fold-averaged metrics across negative-sampling seeds; not biological population confidence intervals",
+  "preprocessing": "OneHotEncoder fitted on training fold only; unseen categories ignored",
+  "split_rule": "shuffle sorted receptor groups by seed, split into five group blocks; shared across same-cohort samplers",
+  "source_code_sha256": {
+    "run_crossfit.py": "5bdbc4c805f570a3879f9d226bba6be2b64ad8b83ad5a41b6a51462311f84d89",
+    "run_split_first.py": "852d9004409a5c6366fda02776adf681681f01bec19884c4b2ea40149cb3df51",
+    "plot_crossfit.py": "4749d194c6d54f27bfc317962f870b5865daa83287b879db2115d84573e27d66",
+    "validate_matching.py": "f194c39cd0fd74e9431d0a239bd9c6ff979cd85781120f255f0cf10097965aea"
+  }
+}

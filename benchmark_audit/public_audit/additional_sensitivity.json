@@ -1,0 +1,35 @@
+{
+  "score3_corrected": {
+    "retained_n": 139,
+    "original_n": 320,
+    "metrics": {
+      "n_positive": 139,
+      "n_negative": 139,
+      "known_positive_collisions": 0,
+      "known_beta_peptide_collisions_any_hla": 0,
+      "fallback_count": 0,
+      "hardcoded_count": 0,
+      "known_positive_collisions_fraction": 0.0,
+      "known_beta_peptide_collisions_any_hla_fraction": 0.0,
+      "fallback_count_fraction": 0.0,
+      "hardcoded_count_fraction": 0.0,
+      "peptide_tv": 0.0,
+      "peptide_identity_oracle_auc": 0.5,
+      "hla_tv": 0.0,
+      "hla_identity_oracle_auc": 0.5,
+      "peptide_hla_tv": 0.0,
+      "peptide_hla_identity_oracle_auc": 0.5,
+      "beta_tv": 0.0,
+      "beta_identity_oracle_auc": 0.5
+    }
+  },
+  "main_confidence_reference_only": {
+    "retained_n": 2696,
+    "known_collisions_against_all_scores": 8
+  },
+  "dominant_peptide_fractions": {
+    "score_ge_0": 0.4322323073773289,
+    "score_ge_1": 0.12507856693903205,
+    "score_eq_3": 0.58125
+  }
+}

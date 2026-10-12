@@ -1,0 +1,13 @@
+{
+  "three_complete_gzip_files_exact_original_hash_match": true,
+  "strict_original_snapshot_verification_pass": true,
+  "restored_bytes": 119181206,
+  "whole_gzip_files_removed_parts_preserved": true,
+  "corrupted_part_rejected_no_partial_target": true,
+  "regenerated_output_preserved_by_default": true,
+  "strict_mode_rejects_changed_existing_snapshot": true,
+  "manifest_sha256": "73ccfc398f8fe6b61f7684d35464b1fae436837dac29282fb92538fa4f4fc560",
+  "restore_helper_sha256": "f6363e6d4abaacbb1f84880529078badee85b16dceb68df00ce6be0f4e25d7ed",
+  "run_all_sha256": "a38069d125314d9d21ec1c9376db42e412f5227b1f2e12e0ee1156cc808cc58d",
+  "status": "PASS"
+}

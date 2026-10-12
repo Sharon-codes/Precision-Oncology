@@ -1,0 +1,29 @@
+# Negative-sampling prior art: verified addendum
+
+Verified 12 October 2026 against the publisher/PMC/PubMed records below. This addendum concerns novelty positioning of the new public-data sampler audit, not validation of the withdrawn original neural performance claims.
+
+## Two citations to add
+
+**Dens C, Laukens K, Bittremieux W, Meysman P (2023). The pitfalls of negative data bias for the T-cell epitope specificity challenge. Nature Machine Intelligence 5:1060–1062. DOI: 10.1038/s42256-023-00727-0.** Published 5 October 2023. Final publisher source: https://www.nature.com/articles/s42256-023-00727-0 . This is the final journal version of bioRxiv 10.1101/2023.04.06.535863; cite the journal. The article compares negatives from background repertoires with shuffled observed sequences and reports that apparent PanPep performance can disappear under shuffled-negative evaluation. It already establishes the central proposition that negative construction can create shortcut performance. The authors' data/code archive is https://github.com/PigeonMark/PanPep-Shuffled-Negatives and https://doi.org/10.5281/zenodo.7798691 .
+
+**Mi X, Zhu J, Dai Z, Zhu Y, Ding B, Lin H, Shen Y, Cao G, Xiao Z (2026). Mitigating negative data bias to enhance TCR–epitope binding and residue interaction prediction. Briefings in Bioinformatics 27(4):bbag418. DOI: 10.1093/bib/bbag418.** Publisher source: https://academic.oup.com/bib/article/27/4/bbag418/8752728 ; PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC13440130/ ; PMID 42555504. Publisher/PMC say published 5 August 2026 although issue is July and PubMed displays a different day; year/volume/article/DOI suffice. Authors introduce central CDR3 junction mutations while retaining V/J framework motifs, then train TranTCR-bind and a contact/distance model TranTCR-map. They discuss biased positive/negative sequence distributions and evaluate independent datasets. This is substantial prior work on negative construction and biological context, although its constructive strategy differs from reassignment of observed sequence pairs.
+
+## Precisely defensible difference
+
+| Established prior work | Scope of the new audit |
+|---|---|
+| Negative-data source can yield shortcut performance; shuffled negatives are an established control (Dens). | An execution-specific pathway: ordered batches cause a collision-resolution fallback to sample from a global unique-ligand pool, changing ligand frequencies even though both branches use observed biological sequences. |
+| Negative construction can preserve biological motifs and influence model performance (Mi). | A constrained permutation of existing rows within HLA, with exclusion of registered positive beta–peptide–HLA tuples, equal source/donor retained-row sets, and preserved empirical marginals. No mutational sequence generation and no claim that unknown pairs are true nonbinders. |
+| Broad benchmarking and negative-bias critiques already exist. | Executable invariants, an optimality result specifically for closed within-HLA row-subset assignment, and quantified retention/coverage costs on a versioned public cohort. |
+| Shuffling can reduce marginal bias. | Explicitly acknowledge that shuffling and matching both give 0.5 for the reported marginal diagnostic; matching adds verifiable constraints at the cost of dropping rows/strata. |
+| Standard split integrity is a precondition for evaluation. | Demonstrate why assignment before cross-validation can couple folds; construct negatives independently after split freezing in the reported learned metadata diagnostic. Do not claim first discovery without a broader literature review. |
+
+This distinction is a **narrow methodological increment**, not evidence that bias itself, shuffling, distance splitting, HLA conditioning, or matching is newly invented. The retained-data change is part of the result: 2,691/3,182 rows and 22/41 HLA strata do not represent the same population as the source. The 0.556 metadata-only cross-fitted AUROC versus 0.5 for row shuffling and matching supports an implementation-dependent shortcut in the evaluated construction, not a biological binding predictor or attention mechanism. These numerical values were supplied by the coordinating agent and should be sourced to the final result tables, not this literature addendum.
+
+## Suggested manuscript text
+
+Negative-data bias in TCR prediction is established. Dens et al. showed that changing background-repertoire negatives to shuffled observed sequences can substantially alter apparent performance, while Mi et al. proposed junction-directed mutational negatives to limit sequence-distribution bias. Our contribution is more specific: we trace a batch-order-dependent fallback in an observed-sequence sampler, test its consequences on a versioned public dataset, and provide a closed within-HLA assignment with explicit invariants and a quantified coverage cost. This assignment controls observed marginal imbalance and registered-positive contradictions within the retained cohort; it does not establish biological nonbinding or improve a validated binding predictor. Simple row shuffling already removes the measured marginal shortcut in these experiments. The additional value of the assignment is its enforceable construction contract, with reduced coverage as a reported trade-off.
+
+## Reviewer verdict
+
+These papers increase the novelty burden. With the original neural claims removed and the real-data analysis added, the work has become a much more credible reproducibility/benchmark-construction study. It is still incremental for ISCLS, and acceptance should not be promised. The paper's strongest argument is the combination of an executed source audit, a concrete failure pathway, an auditable correction, and the measured limits of that correction. Avoid a title or abstract that implies general superiority of the correction or pervasive defects in unrelated published models.

@@ -1,0 +1,12 @@
+{
+  "commit": "0ba2d538065e2d3a8b4642547eb77447ecc89a5b",
+  "files": {
+    "dataset.py": "c6ce86bd7503d37c8b5b87498638a3503688796c0ff08fb5365f320364e81a04",
+    "preprocess.py": "e3e6c3a4511cbe1136e9c99b56f2cfbdcb3cea5c37ae5e81da227e4ff7a6804a",
+    "train.py": "7e7de940ef7323ec5dc2eefaecf7c446a9666e0348a6c9bbf03a86cf0e2ee392",
+    "run_official_sota_replications.py": "53d7e086c2e83224b5e651d0d23e6f057c95f12f8aa21c0be633e23aee8caab1"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3"
+}

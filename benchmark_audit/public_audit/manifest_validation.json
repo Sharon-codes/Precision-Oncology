@@ -1,0 +1,418 @@
+{
+  "all_passed": true,
+  "source_row_indexing": "0-based data rows excluding TSV header",
+  "checks": [
+    {
+      "manifest": "manifests/common_corrected_seed0.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_peptide_sorted_seed0.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_peptide_sorted_seed1.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_peptide_sorted_seed2.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_peptide_sorted_seed3.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_peptide_sorted_seed4.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_peptide_sorted_seed5.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_peptide_sorted_seed6.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_peptide_sorted_seed7.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_peptide_sorted_seed8.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_peptide_sorted_seed9.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_release_order_seed0.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_release_order_seed1.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_release_order_seed2.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_release_order_seed3.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_release_order_seed4.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_release_order_seed5.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_release_order_seed6.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_release_order_seed7.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_release_order_seed8.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_release_order_seed9.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_row_shuffled_seed0.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_row_shuffled_seed1.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_row_shuffled_seed2.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_row_shuffled_seed3.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_row_shuffled_seed4.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_row_shuffled_seed5.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_row_shuffled_seed6.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_row_shuffled_seed7.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_row_shuffled_seed8.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/common_original_row_shuffled_seed9.csv",
+      "n_negative": 2691,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_eq_3_peptide_sorted_B64_seed0.csv",
+      "n_negative": 320,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_eq_3_release_order_B64_seed0.csv",
+      "n_negative": 320,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_eq_3_row_shuffled_B64_seed0.csv",
+      "n_negative": 320,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_0_peptide_sorted_B64_seed0.csv",
+      "n_negative": 29306,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_0_release_order_B64_seed0.csv",
+      "n_negative": 29306,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_0_row_shuffled_B64_seed0.csv",
+      "n_negative": 29306,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_1_peptide_sorted_B16_seed0.csv",
+      "n_negative": 3182,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_1_peptide_sorted_B256_seed0.csv",
+      "n_negative": 3182,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_1_peptide_sorted_B64_seed0.csv",
+      "n_negative": 3182,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_1_release_order_B16_seed0.csv",
+      "n_negative": 3182,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_1_release_order_B256_seed0.csv",
+      "n_negative": 3182,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_1_release_order_B64_seed0.csv",
+      "n_negative": 3182,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_1_row_shuffled_B16_seed0.csv",
+      "n_negative": 3182,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_1_row_shuffled_B256_seed0.csv",
+      "n_negative": 3182,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/score_ge_1_row_shuffled_B64_seed0.csv",
+      "n_negative": 3182,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "manifests/strict_corrected_seed0.csv",
+      "n_negative": 139,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split0_corrected.csv",
+      "n_negative": 509,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split0_full_peptide_sorted_seed0.csv",
+      "n_negative": 1022,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split0_full_release_order_seed0.csv",
+      "n_negative": 1022,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split0_full_row_shuffled_seed0.csv",
+      "n_negative": 1022,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split0_retained_peptide_sorted_seed0.csv",
+      "n_negative": 509,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split0_retained_release_order_seed0.csv",
+      "n_negative": 509,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split0_retained_row_shuffled_seed0.csv",
+      "n_negative": 509,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split1_corrected.csv",
+      "n_negative": 546,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split1_full_peptide_sorted_seed0.csv",
+      "n_negative": 877,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split1_full_release_order_seed0.csv",
+      "n_negative": 877,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split1_full_row_shuffled_seed0.csv",
+      "n_negative": 877,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split1_retained_peptide_sorted_seed0.csv",
+      "n_negative": 546,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split1_retained_release_order_seed0.csv",
+      "n_negative": 546,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split1_retained_row_shuffled_seed0.csv",
+      "n_negative": 546,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split2_corrected.csv",
+      "n_negative": 380,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split2_full_peptide_sorted_seed0.csv",
+      "n_negative": 643,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split2_full_release_order_seed0.csv",
+      "n_negative": 643,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split2_full_row_shuffled_seed0.csv",
+      "n_negative": 643,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split2_retained_peptide_sorted_seed0.csv",
+      "n_negative": 380,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split2_retained_release_order_seed0.csv",
+      "n_negative": 380,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split2_retained_row_shuffled_seed0.csv",
+      "n_negative": 380,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split3_corrected.csv",
+      "n_negative": 271,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split3_full_peptide_sorted_seed0.csv",
+      "n_negative": 372,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split3_full_release_order_seed0.csv",
+      "n_negative": 372,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split3_full_row_shuffled_seed0.csv",
+      "n_negative": 372,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split3_retained_peptide_sorted_seed0.csv",
+      "n_negative": 271,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split3_retained_release_order_seed0.csv",
+      "n_negative": 271,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split3_retained_row_shuffled_seed0.csv",
+      "n_negative": 271,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split4_corrected.csv",
+      "n_negative": 190,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split4_full_peptide_sorted_seed0.csv",
+      "n_negative": 593,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split4_full_release_order_seed0.csv",
+      "n_negative": 593,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split4_full_row_shuffled_seed0.csv",
+      "n_negative": 593,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split4_retained_peptide_sorted_seed0.csv",
+      "n_negative": 190,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split4_retained_release_order_seed0.csv",
+      "n_negative": 190,
+      "reconstruction_exact": true
+    },
+    {
+      "manifest": "split_sensitivity/manifests/test_split4_retained_row_shuffled_seed0.csv",
+      "n_negative": 190,
+      "reconstruction_exact": true
+    }
+  ],
+  "exhaustive_small_graph_maximality_checks": 100,
+  "deterministic_main_assignment_replay": true
+}

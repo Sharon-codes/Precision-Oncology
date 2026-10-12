@@ -1,0 +1,97 @@
+{
+  "scope": "Archived-result and stored-OOF-score consistency verification; no model retraining or biological label verification.",
+  "public": {
+    "seed_rows": 541,
+    "aggregate_rows": 342,
+    "primary_contradictions": {
+      "release_order": {
+        "mean_percentage": 2.988686360779384,
+        "sd_percentage_points": 0.10220160443708315
+      },
+      "peptide_sorted": {
+        "mean_percentage": 0.8820448355332077,
+        "sd_percentage_points": 0.07605975252961418
+      },
+      "row_shuffled": {
+        "mean_percentage": 0.22836790278650743,
+        "sd_percentage_points": 0.06950899479858841
+      }
+    },
+    "retained_hla_strata": 22,
+    "hla_selection_tv": 0.12741239333757032
+  },
+  "source_and_reference": {
+    "rejection_seed_rows": 30,
+    "synthetic_seed_rows": 200,
+    "exhaustive_fixtures": 166
+  },
+  "global_first_oof": {
+    "score_rows": 834210,
+    "complete_fivefold_runs": 155,
+    "pooled_metric_sets": 620,
+    "fold_metric_sets": 3100,
+    "summary_auroc": {
+      "exact_closed_matching": 0.3261593726476669,
+      "source_peptide_sorted": 0.7146393700404655,
+      "source_release_order": 0.5108596266426716,
+      "source_row_shuffled": 0.3297992592951635
+    }
+  },
+  "split_first_oof": {
+    "score_rows": 824972,
+    "complete_fivefold_runs": 155,
+    "pooled_metric_sets": 620,
+    "fold_metric_sets": 3100,
+    "summary_auroc": {
+      "exact_closed_matching": 0.5,
+      "source_peptide_sorted": 0.5558443585159012,
+      "source_release_order": 0.5168048952250313,
+      "source_row_shuffled": 0.5
+    }
+  },
+  "annotation_public": {
+    "seed_rows": 181,
+    "aggregate_rows": 126,
+    "raw_rows": 3182,
+    "filtered_rows": 3108,
+    "retained_rows": 2665,
+    "retained_strata": 21,
+    "primary_results": {
+      "release_order": {
+        "mean_contradiction_percentage": 2.8882453882453887,
+        "mean_peptide_oracle_auroc": 0.6422945249441389
+      },
+      "peptide_sorted": {
+        "mean_contradiction_percentage": 0.9330759330759328,
+        "mean_peptide_oracle_auroc": 0.7935729510536459
+      },
+      "row_shuffled": {
+        "mean_contradiction_percentage": 0.24453024453024455,
+        "mean_peptide_oracle_auroc": 0.5
+      }
+    }
+  },
+  "annotation_filtered_oof": {
+    "score_rows": 814804,
+    "complete_fivefold_runs": 155,
+    "pooled_metric_sets": 620,
+    "fold_metric_sets": 3100,
+    "summary_auroc": {
+      "exact_closed_matching": 0.5,
+      "source_peptide_sorted": 0.5618565011134355,
+      "source_release_order": 0.5187752368247021,
+      "source_row_shuffled": 0.5
+    }
+  },
+  "numeric_and_certificate_assertions": 19726,
+  "status": "PASS",
+  "input_sha256": {
+    "crossfit_audit/annotation_filtered_results/oof_scores.csv.gz": "5fc71f606f749df29aea849ae3df6cf3390c64079277f593ea6db908817d951d",
+    "public_audit/annotation_sensitivity/seed_results.csv": "2d18c69c53e9b36eaede460b6065407a4a3125f9a2996c1c75f3361ab7cb72e4",
+    "reviews/annotation_sensitivity.json": "d965be1cf32b8e511dceb8b15490bc5f66424bd803775debc511ea97f1bd8999",
+    "paper/manuscript.tex": "ee5a88671e84aee387fe5ecbaea3d44fb0172270079d81b346cc06b3df11387b",
+    "public_audit/seed_results.csv": "3b4ec1b4f0b21bf1c3ad5dbd3d37ff6593e95ed6c22ccf564f31795012b6ba29",
+    "crossfit_audit/results/oof_scores.csv.gz": "97b3b12b44c2afd97f01f204081c27d1abb9a7f73f80b0333b1844205e3e2e02",
+    "crossfit_audit/split_first_results/oof_scores.csv.gz": "295d34cf23105dafd89648e1433017708c6d964215f3d2b613da92c6e51812ce"
+  }
+}
