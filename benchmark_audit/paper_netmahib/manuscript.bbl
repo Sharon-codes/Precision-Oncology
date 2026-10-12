@@ -1,0 +1,96 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\providecommand{\eprint}[2][]{\url{#2}}
+ \bibcommenthead
+
+\bibitem[{Castorina et~al.(2025)Castorina, Grazioli, Machart, M{\"o}sch, and
+  Errica}]{Castorina2025}
+Castorina LV, Grazioli F, Machart P, et~al (2025) Assessing the generalization
+  capabilities of {TCR} binding predictors via peptide distance analysis. PLOS
+  ONE 20(5):e0324011. \doi{10.1371/journal.pone.0324011}
+
+\bibitem[{Crouse(2016)}]{Crouse2016}
+Crouse DF (2016) On implementing {2D} rectangular assignment algorithms. IEEE
+  Transactions on Aerospace and Electronic Systems 52(4):1679--1696.
+  \doi{10.1109/TAES.2016.140952}
+
+\bibitem[{Deng et~al.(2023)Deng, Ly, Abdollahi, Zhao, Prinz, and
+  Bonn}]{Deng2023}
+Deng L, Ly C, Abdollahi S, et~al (2023) Performance comparison of {TCR-pMHC}
+  prediction tools reveals a strong data dependency. Frontiers in Immunology
+  14:1128326. \doi{10.3389/fimmu.2023.1128326}
+
+\bibitem[{Dens et~al.(2023)Dens, Laukens, Bittremieux, and Meysman}]{Dens2023}
+Dens C, Laukens K, Bittremieux W, et~al (2023) The pitfalls of negative data
+  bias for the {T}-cell epitope specificity challenge. Nature Machine
+  Intelligence 5:1060--1062. \doi{10.1038/s42256-023-00727-0}
+
+\bibitem[{Drost et~al.(2025)Drost, Chernysheva, Albahah, Kocher, Schober, and
+  Schubert}]{Drost2025}
+Drost F, Chernysheva A, Albahah M, et~al (2025) Benchmarking of {T} cell
+  receptor-epitope predictors with {ePytope-TCR}. Cell Genomics 5(8):100946.
+  \doi{10.1016/j.xgen.2025.100946}
+
+\bibitem[{Grazioli et~al.(2022)Grazioli, M{\"o}sch, Machart, Li, Alqassem,
+  O'Donnell, and Min}]{Grazioli2022}
+Grazioli F, M{\"o}sch A, Machart P, et~al (2022) On {TCR} binding predictors
+  failing to generalize to unseen peptides. Frontiers in Immunology 13:1014256.
+  \doi{10.3389/fimmu.2022.1014256}
+
+\bibitem[{Hall(1935)}]{Hall1935}
+Hall P (1935) On representatives of subsets. Journal of the London Mathematical
+  Society s1-10(1):26--30. \doi{10.1112/jlms/s1-10.37.26}
+
+\bibitem[{Jiang et~al.(2023)Jiang, Huo, and Li}]{Jiang2023}
+Jiang Y, Huo M, Li SC (2023) {TEINet}: a deep learning framework for prediction
+  of {TCR}--epitope binding specificity. Briefings in Bioinformatics
+  24(2):bbad086. \doi{10.1093/bib/bbad086}
+
+\bibitem[{Korpela et~al.(2023)Korpela, Jokinen, Dumitrescu, Huuhtanen,
+  Mustjoki, and L{\"a}hdesm{\"a}ki}]{Korpela2023}
+Korpela D, Jokinen E, Dumitrescu A, et~al (2023) {EPIC-TRACE}: predicting {TCR}
+  binding to unseen epitopes using attention and contextualized embeddings.
+  Bioinformatics 39(12):btad743. \doi{10.1093/bioinformatics/btad743}
+
+\bibitem[{Lu et~al.(2026)Lu, Wang, Xu, Xie, Yang, Xu, and Suo}]{Lu2026}
+Lu Y, Wang Y, Xu M, et~al (2026) Assessment of computational methods in
+  predicting {TCR}--epitope binding recognition. Nature Methods 23:248--259.
+  \doi{10.1038/s41592-025-02910-0}
+
+\bibitem[{Mi et~al.(2026)Mi, Zhu, Dai, Zhu, Ding, Lin, Shen, Cao, and
+  Xiao}]{Mi2026}
+Mi X, Zhu J, Dai Z, et~al (2026) Mitigating negative data bias to enhance
+  {TCR}--epitope binding and residue interaction prediction. Briefings in
+  Bioinformatics 27(4):bbag418. \doi{10.1093/bib/bbag418}
+
+\bibitem[{Montemurro et~al.(2021)Montemurro, Schuster, Povlsen, Bentzen, Jurtz,
+  Chronister, Crinklaw, Hadrup, Winther, Peters, Jessen, and
+  Nielsen}]{Montemurro2021}
+Montemurro A, Schuster V, Povlsen HR, et~al (2021) {NetTCR-2.0} enables
+  accurate prediction of {TCR}-peptide binding by using paired {TCR} alpha and
+  beta sequence data. Communications Biology 4:1060.
+  \doi{10.1038/s42003-021-02610-3}
+
+\bibitem[{Moris et~al.(2021)Moris, De~Pauw, Postovskaya, Gielis, De~Neuter,
+  Bittremieux, Ogunjimi, Laukens, and Meysman}]{Moris2021}
+Moris P, De~Pauw J, Postovskaya A, et~al (2021) Current challenges for
+  unseen-epitope {TCR} interaction prediction and a new perspective derived
+  from image classification. Briefings in Bioinformatics 22(4):bbaa318.
+  \doi{10.1093/bib/bbaa318}
+
+\bibitem[{Shugay et~al.(2018)Shugay, Bagaev, Zvyagin, Vroomans, Crawford,
+  Dolton, Komech, Sycheva, Koneva, Egorov et~al.}]{Shugay2018}
+Shugay M, Bagaev DV, Zvyagin IV, et~al (2018) {VDJdb}: a curated database of
+  {T}-cell receptor sequences with known antigen specificity. Nucleic Acids
+  Research 46(D1):D419--D427. \doi{10.1093/nar/gkx760}
+
+\bibitem[{Weber et~al.(2021)Weber, Born, and
+  Rodriguez~Mart{\'i}nez}]{Weber2021}
+Weber A, Born J, Rodriguez~Mart{\'i}nez M (2021) {TITAN}: {T}-cell receptor
+  specificity prediction with bimodal attention networks. Bioinformatics
+  37(Supplement 1):i237--i244. \doi{10.1093/bioinformatics/btab294}
+
+\end{thebibliography}

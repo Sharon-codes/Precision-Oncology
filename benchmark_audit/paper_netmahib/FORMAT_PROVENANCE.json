@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-12",
+  "target_journal": "Network Modeling Analysis in Health Informatics and Bioinformatics",
+  "research_revision": "a4162ded50ba24d76ab8d5134577eba6935f910b",
+  "source_zip_sha256": "ece894cd2f6c8423cafe28cdeccba2560506bb0d0db74a0fc7913b4ba9a5053e",
+  "scientific_results_changed": false,
+  "author_declarations_pending": true,
+  "figures": [
+    {
+      "old_name": "fig1_mechanism.eps",
+      "new_name": "Fig1.eps",
+      "sha256": "00ca9f3f699f096f4cc484a0898ef7e00ede12a5af9567620967be8a4d302482"
+    },
+    {
+      "old_name": "fig1_mechanism.pdf",
+      "new_name": "Fig1.pdf",
+      "sha256": "8530f678cc10f5630e16e7eeac509aebca7b4cebf37b71f8b90e301b516cdc67"
+    },
+    {
+      "old_name": "fig1_mechanism.png",
+      "new_name": "Fig1.png",
+      "sha256": "5e1a274e5a06901d187cac9a88660500b1c4e28ce7b8de7d3b2acfb96d0678fb"
+    },
+    {
+      "old_name": "fig2_common_cohort.eps",
+      "new_name": "Fig2.eps",
+      "sha256": "df96a24a31e8c0270bb690aeeb5dfbffc4394f7d305590cb883d0cdcfbac165d"
+    },
+    {
+      "old_name": "fig2_common_cohort.pdf",
+      "new_name": "Fig2.pdf",
+      "sha256": "faff77fca171e7e41d55568bc85881dc35f15b15d9067cc4dc040b74c2ba22d7"
+    },
+    {
+      "old_name": "fig2_common_cohort.png",
+      "new_name": "Fig2.png",
+      "sha256": "c02d434b28abfe613cbc872d2bd0d607b61b2b0dd46661fffede0c80051250a0"
+    },
+    {
+      "old_name": "fig3_confidence.eps",
+      "new_name": "Fig3.eps",
+      "sha256": "b563ae9061ce52f90806972fb6ca781403a3f4b245a880bbaa259de10655a750"
+    },
+    {
+      "old_name": "fig3_confidence.pdf",
+      "new_name": "Fig3.pdf",
+      "sha256": "5ccd88bb821996fc6e0327de48b99bd697524f92df060761463fd3246cd16479"
+    },
+    {
+      "old_name": "fig3_confidence.png",
+      "new_name": "Fig3.png",
+      "sha256": "1a55779fd7adca7bea69c905ccd8fe81895d5a153ac0cfdd52bdc4c5d6b838bf"
+    },
+    {
+      "old_name": "fig4_coverage.eps",
+      "new_name": "Fig4.eps",
+      "sha256": "0631aceadd6d8ea06cf9876bbad47abe1fd1f06004ee4b2f92ef519987b7a57d"
+    },
+    {
+      "old_name": "fig4_coverage.pdf",
+      "new_name": "Fig4.pdf",
+      "sha256": "a65278d1d52c459b465a3e9098468ffe2c2d35c964a280f27810be70acabf660"
+    },
+    {
+      "old_name": "fig4_coverage.png",
+      "new_name": "Fig4.png",
+      "sha256": "ce90b3f6a329f75b753e68a0052e7c06d622fc98020cc5d2639cd98d159b2da8"
+    },
+    {
+      "old_name": "fig5_partition_order.eps",
+      "new_name": "Fig5.eps",
+      "sha256": "0255286efcb4fb5bae96d792414e1016d7c0775486d6c3c96feac1821cf1bc11"
+    },
+    {
+      "old_name": "fig5_partition_order.pdf",
+      "new_name": "Fig5.pdf",
+      "sha256": "42257f622b73e8228d9004d202375c1aef2feb40d1de3c1a3c394f7e48c2a0ed"
+    },
+    {
+      "old_name": "fig5_partition_order.png",
+      "new_name": "Fig5.png",
+      "sha256": "61f163f332e1f4c294a5fc789cce3850770e139863f6535305622e6ef48feff1"
+    },
+    {
+      "old_name": "figS1_batch_sizes.eps",
+      "new_name": "FigS1.eps",
+      "sha256": "6c6799cf5e193b75722b9f6d744a1f28126177e495b3e9435f168c84bf55007c"
+    },
+    {
+      "old_name": "figS1_batch_sizes.pdf",
+      "new_name": "FigS1.pdf",
+      "sha256": "e5c732f275c406e4dad2ce644c0b3ce49c4ec8f96bf59936dcafa8d6d976b1d9"
+    },
+    {
+      "old_name": "figS1_batch_sizes.png",
+      "new_name": "FigS1.png",
+      "sha256": "82ada5ee1cecdb3978a0d3c100c74ee084d08b73784f615a93dfab8b83be71ea"
+    }
+  ],
+  "tables": [
+    {
+      "name": "confidence_full.tex",
+      "sha256": "5b71d8884f13bff0310b08d9748ad7902e7f8d51f00f01bdb3e15847c08b7199"
+    },
+    {
+      "name": "distance_splits.tex",
+      "sha256": "22c0bb2c2e27fcdad3389b792d2fa0a83292dabccb9062a42493067679cb4cb0"
+    },
+    {
+      "name": "filter_flow.tex",
+      "sha256": "3885774ba591e88aadc78e77be9ce15b74373c35460b1ddcb21b4e13abfabf36"
+    },
+    {
+      "name": "hla_retention.tex",
+      "sha256": "8f87e29ba733d0aec6873345c6b38b5a7e225d9868531c49b3edca82c17ae687"
+    },
+    {
+      "name": "trained_controls.tex",
+      "sha256": "404adaa2e03b9870d1568abbdc1ff9063e1b4c7c08ddb73be65a90b4ff42875e"
+    }
+  ],
+  "limitations_condensed_with_full_details_in_supplement": true
+}
