@@ -1,4 +1,4 @@
-# NetMAHIB author-review package
+# NetMAHIB manuscript package
 
 Preferred journal: **Network Modeling Analysis in Health Informatics and Bioinformatics** (Springer Nature). Article type: original research. Choose **subscription publication**, for which the official journal page states that no APC applies. Open access is optional and chargeable.
 
@@ -9,7 +9,7 @@ Preferred journal: **Network Modeling Analysis in Health Informatics and Bioinfo
 - `title_page.pdf` / `title_page.tex`: separate author details if requested by the portal.
 - `figures/`: identical research figures in vector PDF/EPS and PNG; publisher-preferred filenames.
 - `tables/`, `references.bib`, `sn-jnl.cls`, `sn-basic.bst`: editable tables and build dependencies.
-- `AUTHOR_DECLARATIONS.md`: mandatory facts for authors to complete before submission.
+- `AUTHOR_DECLARATIONS.md`: completed funding, competing-interest and contribution statements.
 - `cover_letter.md`: editable unsent cover-letter draft.
 - `JOURNAL_DECISION.md`: independent-agent debate, rationale and remaining fit risk.
 - `FORMAT_PROVENANCE.json`: exact input and unchanged scientific-asset fingerprints.
@@ -20,9 +20,9 @@ The code and data remain in the complete research repository, pinned at revision
 
 ## Current preparation status
 
-The manuscript and supplement carry Sharon Melhi and Rajat Bhardwaj, with the supplied Amity affiliation. The email is retained from the original supplied manuscript. The 218-word abstract, six keywords, author–year references and numbered sections follow the retrieved journal instructions. Figures were created programmatically; no generative image was used.
+The manuscript and supplement carry Sharon Melhi and Rajat Bhardwaj, with the supplied Amity affiliation. Sharon Melhi is the corresponding author at sharonmelhi365@gmail.com. The 218-word abstract, six keywords, author–year references and numbered sections follow the retrieved journal instructions. Figures were created programmatically; no generative image was used.
 
-**Do not upload before completing the author declarations.** The scientific results have been checked, but funding, competing interests, contribution roles, correspondence and submission eligibility need author input. The main manuscript explicitly identifies this outstanding step rather than inventing declarations. The journal requires contribution and competing-interest details through its submission interface as well.
+Funding, competing interests and author contributions have been completed from the author's instructions. The journal also requires contribution and competing-interest details in its submission interface. At upload, the corresponding author must confirm coauthor approval and that the work is not under consideration elsewhere. No submission has been made.
 
 No journal-specific double-anonymous requirement was stated in the retrieved instructions; author details are requested. Follow any additional live portal requirement when submitting. No submission or contact with an editor has been made.
 

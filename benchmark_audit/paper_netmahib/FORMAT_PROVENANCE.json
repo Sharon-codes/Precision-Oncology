@@ -4,7 +4,7 @@
   "research_revision": "a4162ded50ba24d76ab8d5134577eba6935f910b",
   "source_zip_sha256": "ece894cd2f6c8423cafe28cdeccba2560506bb0d0db74a0fc7913b4ba9a5053e",
   "scientific_results_changed": false,
-  "author_declarations_pending": true,
+  "author_declarations_pending": false,
   "figures": [
     {
       "old_name": "fig1_mechanism.eps",
@@ -119,5 +119,10 @@
       "sha256": "404adaa2e03b9870d1568abbdc1ff9063e1b4c7c08ddb73be65a90b4ff42875e"
     }
   ],
-  "limitations_condensed_with_full_details_in_supplement": true
+  "limitations_condensed_with_full_details_in_supplement": true,
+  "corresponding_author": {
+    "name": "Sharon Melhi",
+    "email": "sharonmelhi365@gmail.com"
+  },
+  "declarations_updated": "2026-10-12"
 }

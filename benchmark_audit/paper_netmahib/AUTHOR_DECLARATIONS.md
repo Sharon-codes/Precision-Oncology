@@ -1,14 +1,20 @@
-# Author declarations — complete before submission
+# Author declarations
 
-The scientific manuscript is prepared for Network Modeling Analysis in Health Informatics and Bioinformatics. The following facts cannot be inferred or generated from analysis code. Replace the pending paragraph in manuscript.tex with the approved statements, and enter contributions and competing interests in the journal submission interface as required.
+## Corresponding author
 
-- **Correspondence:** Confirm Rajat Bhardwaj and rajat@blr.amity.edu (retained from the supplied original manuscript), or supply the correct contact.
-- **Funding:** State actual funders and grant identifiers, or confirm an accurate no-funding declaration.
-- **Competing interests:** Provide both authors' financial and non-financial disclosures, or confirm that neither has relevant interests.
-- **Author contributions:** Describe Sharon Melhi's and Rajat Bhardwaj's actual contributions. Do not assign roles merely from author order or titles.
-- **Acknowledgments:** Supply any acknowledgments and necessary consent, or indicate none.
-- **Approval and eligibility:** Both authors must approve the final study and its AI-assistance disclosure. Confirm it is not concurrently under review elsewhere; an older source README referred to an earlier submission whose present status is unknown.
+Sharon Melhi — sharonmelhi365@gmail.com
+Amity School of Engineering and Technology, Amity University Bengaluru, Bengaluru, India.
 
-The executed work uses public records and synthetic decoys, with no new participants, specimens or animals. No ethics approval number or institutional exemption has been invented.
+## Funding
 
-Until these facts are supplied, the package is an author-review version, not an administratively complete journal submission.
+No funding was received for this study.
+
+## Competing interests
+
+The authors declare no competing interests.
+
+## Author contributions
+
+Sharon Melhi led the study and performed the majority of the research, computational analysis and manuscript preparation. Rajat Bhardwaj contributed to iterative refinement of the study, critical review and manuscript revision.
+
+These statements follow the author information supplied on 12 October 2026. Use the same wording in the journal's contribution and competing-interest submission fields.

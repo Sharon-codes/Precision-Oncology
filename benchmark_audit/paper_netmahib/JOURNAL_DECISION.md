@@ -15,4 +15,4 @@ The official scope includes graph theory, statistics, linear algebra and machine
 
 The guide requests author details, a 150–250-word abstract, 4–6 keywords and author–year references. It allows LaTeX for mathematical content and requires editable sources. Supplementary files must identify the article, authors, journal and correspondence. Contribution and competing-interest information must also be entered in the submission interface.
 
-The package awaits factual author declarations. The three agent reviews are internal computational/editorial checks, not journal peer review or an acceptance prediction.
+Funding, competing interests, contributions and correspondence have been finalized from the author's instructions. The three agent reviews are internal computational/editorial checks, not journal peer review or an acceptance prediction.

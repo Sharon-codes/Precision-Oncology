@@ -8,7 +8,10 @@ The contribution is a reproducible methodological audit and an explicit construc
 
 The source code, manifests, measurements, prediction records and figures are public at https://github.com/Sharon-codes/Precision-Oncology/tree/a4162ded50ba24d76ab8d5134577eba6935f910b/benchmark_audit. A supplementary methods and results file accompanies the article. We request subscription publication.
 
-Sharon Melhi and Rajat Bhardwaj
+Sharon Melhi (corresponding author), on behalf of the authors
+sharonmelhi365@gmail.com
 Amity School of Engineering and Technology, Amity University Bengaluru, India
 
-AUTHOR ACTION BEFORE USE: add only confirmed publication-eligibility, author-approval and declaration statements. This letter has not been sent.
+Funding: No funding was received for this study.
+
+Competing interests: The authors declare no competing interests.
